@@ -12,12 +12,11 @@
           }
 
 
-
 body  {
   background-color:#F3F5FA;
   margin: 100px;
   font-family: Helvetica;
-  font-size: 15pt;
+  font-size: 12pt;
   color: #141414
       }
 
@@ -25,8 +24,11 @@ h1    {
   font-size: 30pt;
       }
 
+h1    {
+  font-size: 15pt;
+      }
 
-p     {
-  font-size: 12pt;
-  color: #141414
+
+p.big {
+  line-height: 1.8;
       }
