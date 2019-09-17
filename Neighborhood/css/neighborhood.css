@@ -17,14 +17,20 @@ body  {background-color:#F3F5FA;
       margin: 100px
       }
 
-h1,h2 {
-      font-family: claredon-urw-extra-wide, serif;
-      font-style: medium ;
-      font-weight: 300;
+h1    {
+      font-family: Helvetica; san-serif;
+      font-size: 30pt;
+      }
+
+h2    {
+      font-family: Helvetica, san-serif;
+      font-size: 30pt;
       color: #141414
       }
 
+
 p     {font-family: "Fleya Web";
       font-style: regular ;
+      font-size: 12pt;
       color: #141414
       }
