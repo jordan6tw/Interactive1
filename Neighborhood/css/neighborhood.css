@@ -15,17 +15,18 @@
 
 
 
-body {
-  font-family: "Fleya Regular Web",
-  
-}
+body {background-color:#F3F5FA;
+      margin: 100px
+      }
 
-h1{
-  font-style: italic;
-  color: #373fff;
-}
+h1,h2 {
+      font-family: claredon-urw-extra-wide, serif;
+      font-style: medium ;
+      font-weight: 300;
+      color: #141414
+      }
 
-p{
-  color:black
-
-}
+p     {font-family: "Fleya Web";
+      font-style: regular ;
+      color: #141414
+      }
