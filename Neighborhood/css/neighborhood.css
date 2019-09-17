@@ -39,6 +39,11 @@ p     {
   margin-right: 200px;
 }
 
+img   {
+  padding-bottom: 40px
+}
+
+
 /* link */
 a:link, a:visited {
   color: #FA736E;
