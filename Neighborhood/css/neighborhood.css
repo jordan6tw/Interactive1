@@ -26,8 +26,7 @@ h1    {
       }
 
 
-p     {font-family: "Fleya Web";
-      font-style: regular;
-      font-size: 12pt;
-      color: #141414
+p     {
+  font-size: 12pt;
+  color: #141414
       }
