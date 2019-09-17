@@ -37,16 +37,18 @@ p     {
 
 /* link */
 a:link, a:visited {
+  background-color: white;
   color: #FA736E;
-  padding: 14px 25px;
+  padding: 12px 22px;
   text-align: left;
   text-decoration: none;
   display: inline-block;
+  border-style: solid
 }
 
 a:hover, a:active {
-  background-color: white;
-  border-style: solid
+  text-decoration: none;
+
 }
 
 footer {
