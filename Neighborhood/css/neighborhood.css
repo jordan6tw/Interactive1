@@ -2,7 +2,7 @@
 
 
 @font-face {
-  font-family: 'Fleya Regular Web';
+  font-family: 'Fleya Web';
   src: url('webfont.eot'); /* IE9 Compat Modes */
   src: url('webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
        url('webfont.woff2') format('woff2'), /* Super Modern Browsers */
@@ -13,20 +13,16 @@
 
 
 
-body  {background-color:#F3F5FA;
-      margin: 100px
+body  {
+  background-color:#F3F5FA;
+  margin: 100px;
+  font-family: Helvetica;
+  font-size: 15pt;
+  color: #141414
       }
 
 h1    {
-      font-family: Helvetica;
-      font-size: 30pt;
-      color: #141414
-      }
-
-h2    {
-      font-family: Helvetica;
-      font-size: 15pt;
-      color: #141414
+  font-size: 30pt;
       }
 
 
