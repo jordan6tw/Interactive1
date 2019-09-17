@@ -4,8 +4,6 @@ body  {
   background-color:#F3F5FA;
   margin: 100px;
   font-family: Helvetica;
-  font-size: 12pt;
-  line-height: 1.8;
   color: #141414
       }
 
@@ -15,4 +13,9 @@ h1    {
 
 h1    {
   font-size: 15pt;
+      }
+
+p     {
+  font-size: 12pt;
+  line-height: 1.8;
       }
