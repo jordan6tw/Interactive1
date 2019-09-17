@@ -17,15 +17,15 @@
 
 body {
   font-family: "Fleya Regular Web",
-
-  margin: 2em;
+  
 }
 
-h1 {
+h1{
   font-style: italic;
   color: #373fff;
 }
+
 p{
-  color:pink
+  color:black
 
 }
