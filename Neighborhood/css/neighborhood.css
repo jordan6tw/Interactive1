@@ -36,6 +36,7 @@ h2    {
 p     {
   font-size: 12pt;
   line-height: 1.7;
+  margin-right: 200px;
 }
 
 /* link */
@@ -49,6 +50,7 @@ a:link, a:visited {
 
 a:hover, a:active {
   text-decoration: none;
+  color: #BDA4A2;
 
 }
 
@@ -57,8 +59,6 @@ footer {
   color: #FA736E;
   text-align: center;
   padding: 20px;
-  font-family: p22-underground-pc, sans-serif;
-  font-weight: 100;
   font-size: 8pt;
   font-style: normal;
 }
