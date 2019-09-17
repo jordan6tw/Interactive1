@@ -9,13 +9,11 @@
        url('webfont.woff') format('woff'), /* Pretty Modern Browsers */
        url('webfont.ttf')  format('truetype'), /* Safari, Android, iOS */
        url('webfont.svg#svgFontName') format('svg'); /* Legacy iOS */
-}
+          }
 
 
 
-
-
-body {background-color:#F3F5FA;
+body  {background-color:#F3F5FA;
       margin: 100px
       }
 
