@@ -1,8 +1,7 @@
 header {
-  text-align: left;
+  text-align: right;
   padding-top: 20px;
   padding-right: 15px;
-  padding-bottom: 10px;
   color: #000000;
 }
 
@@ -19,11 +18,13 @@ body  {
 
 h1    {
   font-family: mencken-std, sans-serif;
-  font-weight: 1000;
+  font-weight: 400;
   font-style: italic;
 }
 
 h2    {
+  padding-top: 20px;
+  padding-bottom: 20px;
   font-weight: 900;
   font-style: italic;
 
