@@ -2,7 +2,8 @@
 
 body  {
   background-color:#F3F5FA;
-  margin: 100px;
+  margin-right: 200px;
+  margin-left: 200px;
   font-family: Helvetica;
   color: #141414
       }
@@ -17,5 +18,5 @@ h1    {
 
 p     {
   font-size: 12pt;
-  line-height: 1.8;
+  line-height: 1.7;
       }
