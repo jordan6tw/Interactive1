@@ -4,9 +4,16 @@ header {
   padding: 20px;
 }
 
+div {
+  padding-top: 20px;
+  padding-right
+  padding-bottom
+  padding-left: 20px
+}
+
 
 body  {
-  margin: 200px;
+  margin: 100px;
   font-family: Helvetica;
   color: #141414
 }
@@ -25,4 +32,28 @@ h2    {
 p     {
   font-size: 12pt;
   line-height: 1.7;
+}
+
+/* link */
+a:link, a:visited {
+  color: #FA736E;
+  padding: 14px 25px;
+  text-align: left;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:active {
+  background-color: white;
+  border-style: solid
+}
+
+footer {
+  background-color: #FCFFE6;
+  text-align: center;
+  padding: 20px;
+  font-family: p22-underground-pc, sans-serif;
+  font-weight: 100;
+  font-size: 8pt;
+  font-style: normal;
 }
