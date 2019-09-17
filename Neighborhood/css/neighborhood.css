@@ -1,20 +1,28 @@
+header {
+  background-color: #FCFFE6;
+  text-align: center;
+  padding: 20px;
+}
 
 
 body  {
-  margin: 100px;
+  margin: 200px;
   font-family: Helvetica;
   color: #141414
-      }
+}
+
 
 h1    {
   font-size: 30pt;
-      }
+}
+
 
 h2    {
   font-size: 15pt;
-      }
+}
+
 
 p     {
   font-size: 12pt;
   line-height: 1.7;
-      }
+}
