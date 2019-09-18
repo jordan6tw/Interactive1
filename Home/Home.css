@@ -7,10 +7,6 @@ header {
 
 
 body  {
-  background-image: url("Home/decoration.png");
-  background-repeat: no-repeat;
-  background-position: right top;
-  background-attachment: fixed;
   margin-left: 200px;
   margin-right: 200px;
   font-family: freight-neo-pro, sans-serif;
