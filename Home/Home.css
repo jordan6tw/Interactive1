@@ -43,20 +43,29 @@ p     {
   margin-right: 200px;
 }
 
-/* link */
+/* TOC */
 a:link, a:visited {
-  color: #000000;
-  padding: 6px 22px 6px 0px;
-  text-align: left;
+	border: solid;
+  background-color: white;
+  color: black;
+  padding: 50px 25px;
+  text-align: center;
   text-decoration: none;
   display: inline-block;
 }
 
 a:hover, a:active {
-  text-decoration: none;
-  color: #6E828C;
-
+  background-color: black;
+  color: white;
 }
+
+/* link */
+
+
+
+
+
+
 
 footer {
   color: #000000;
