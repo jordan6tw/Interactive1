@@ -43,25 +43,22 @@ p     {
   margin-right: 200px;
 }
 
-/* TOC */
+
+
+/* link */
 a:link, a:visited {
-	border: solid;
-  background-color: white;
-  color: black;
-  padding: 50px 25px;
-  text-align: center;
+  color: #000000;
+  padding: 6px 22px 6px 0px;
+  text-align: left;
   text-decoration: none;
   display: inline-block;
 }
 
 a:hover, a:active {
-  background-color: black;
-  color: white;
+  text-decoration: none;
+  color: #6E828C;
+
 }
-
-
-
-
 
 
 
