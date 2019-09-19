@@ -6,7 +6,7 @@ body  {
   font-family: freight-neo-pro, sans-serif;
   font-weight: 400;
   font-style: normal;
-  color: #141414
+  color: #141414;
 }
 
 header {
@@ -15,6 +15,19 @@ header {
   padding-right: 15px;
   padding-bottom: 10px;
   color: #FA736E;
+}
+
+#header{
+  background-color: #ffffff;
+  position: fixed;
+  height: 100px;
+  left: 200px;
+  right: 200px;
+  z-index: 10000;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  box-shdow: 0 0 10px rgba(0, 225, 0, .5);
+
 }
 
 
@@ -40,8 +53,9 @@ p     {
 }
 
 img   {
-  padding-bottom: 40px
+  padding-bottom: 40px;
 }
+
 
 
 /* link */
