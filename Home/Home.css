@@ -12,7 +12,11 @@ body  {
   font-family: freight-neo-pro, sans-serif;
   font-weight: 400;
   font-style: normal;
-  color: #000000
+  background-image: url("decoration.jpg");
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  background-size: 600px 800px;
+
 }
 
 
