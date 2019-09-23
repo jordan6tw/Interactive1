@@ -1,6 +1,6 @@
 body  {
-  margin-left: 200px;
-  margin-right: 200px;
+  margin-left: 100px;
+  margin-right: 100px;
   font-family: forma-djr-text, sans-serif;
   font-weight: 400;
   font-style: normal;
@@ -23,15 +23,19 @@ body  {
     box-shdow: 0 0 10px rgba(0, 225, 0, .5);
 
 }
-
-
-
-
-h1    {
+.headertext{
+  position: absolute;
+  left: 50%;
+  top: 45%;
+  transform: translate(-50%, -50%);
   font-family: eskapade-fraktur, serif;
   font-weight: 400;
   font-style: normal;
+  font-size: 75px;
 }
+
+
+
 
 
 h2    {
