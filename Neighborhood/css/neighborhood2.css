@@ -1,10 +1,10 @@
 body  {
   margin-left: 200px;
   margin-right: 200px;
-  font-family: freight-neo-pro, sans-serif;
+  font-family: forma-djr-text, sans-serif;
   font-weight: 400;
   font-style: normal;
-  color: #141414;
+  color: #ffffff;
 }
 
 header {
@@ -12,7 +12,7 @@ header {
   padding-top: 20px;
   padding-right: 15px;
   padding-bottom: 10px;
-  color: #FA736E;
+  color: #ffffff;
 }
 
 #header{
@@ -32,16 +32,16 @@ header {
 
 
 h1    {
-  font-family: mencken-std, sans-serif;
-  font-weight: 800;
-  font-style: italic;
+  font-family: eskapade-fraktur, serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 
 h2    {
-  font-family: mencken-std, sans-serif;
-  font-weight: 500;
-  font-style: italic;
+  font-family: eskapade-fraktur, serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 
@@ -60,7 +60,7 @@ img   {
 
 /* link */
 a:link, a:visited {
-  color: #FA736E;
+  color: #ffffff;
   padding: 6px 22px 6px 0px;
   text-align: left;
   text-decoration: none;
@@ -69,12 +69,12 @@ a:link, a:visited {
 
 a:hover, a:active {
   text-decoration: none;
-  color: #BDA4A2;
+  color: #75706A;
 
 }
 
 footer {
-  color: #FA736E;
+  color: #ffffff;
   text-align: center;
   padding: 20px;
   font-size: 8pt;
