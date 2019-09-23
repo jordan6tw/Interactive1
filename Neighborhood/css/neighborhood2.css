@@ -4,21 +4,23 @@ body  {
   font-family: forma-djr-text, sans-serif;
   font-weight: 400;
   font-style: normal;
-  color: #ffffff;
+  text-align: center;
+  color: #000000;
 }
 
 
 
-  header{
-  boarder: solid;
-  position: fixed;
-  height: 100px;
-  left: 200px;
-  right: 200px;
-  z-index: 10000;
-  padding-bottom: 10px;
-  padding-top: 10px;
-  box-shdow: 0 0 10px rgba(0, 225, 0, .5);
+.header{
+    boarder: solid;
+    position: fixed;
+    height: 100px;
+    left: 200px;
+    right: 200px;
+    z-index: 10000;
+    top: 0;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    box-shdow: 0 0 10px rgba(0, 225, 0, .5);
 
 }
 
@@ -54,7 +56,7 @@ img   {
 
 /* link */
 a:link, a:visited {
-  color: #ffffff;
+  color: #000000;
   padding: 6px 22px 6px 0px;
   text-align: left;
   text-decoration: none;
@@ -68,7 +70,7 @@ a:hover, a:active {
 }
 
 footer {
-  color: #ffffff;
+  color: #000000;
   text-align: center;
   padding: 20px;
   font-size: 8pt;
