@@ -7,16 +7,10 @@ body  {
   color: #ffffff;
 }
 
-header {
-  text-align: left;
-  padding-top: 20px;
-  padding-right: 15px;
-  padding-bottom: 10px;
-  color: #ffffff;
-}
 
-#header{
-  background-color: #ffffff;
+
+  header{
+  boarder: solid;
   position: fixed;
   height: 100px;
   left: 200px;
