@@ -2,27 +2,30 @@
 
 
 
-#nav{
-  font-family: mencken-std, sans-serif;
-  font-weight: 500;
-  font-style: italic;
-  background-color: #000000
-
-
-}
-
-#nav ul a:link, a:visited {
-  color: #ffffff;
-  padding: 14px 25px;
-  text-align: right;
-  text-decoration: none;
-
-}
-
-#nav ul a:hover, a:active {
-  display: inline-block;
+#nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
   border: solid;
 }
+#nav li {
+  float: right;
+}
+
+#nav li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+#nav li a:hover {
+  background-color: black;
+  color: white;
+}
+
+
 
 body  {
   margin-left: 200px;
@@ -37,42 +40,58 @@ h2    {
   font-family: mencken-std, sans-serif;
   font-weight: 500;
   font-style: italic;
+  padding: 40px 40px;
+  border: solid;
 }
 
 
-p     {
+p {
   font-family: mencken-std, sans-serif;
   font-weight: 400;
   font-style: italic;
+  text-align: center;
+}
+
+#exercises, #weekly-exercises, #projects {
+  border: solid;
 }
 
 
-#exercises a:link, a:visited {
-  color: #000000;
-  padding: 14px 25px;
+
+#exercises
+  a:link, a:visited {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 10px 16px;
   text-decoration: none;
 }
-#exercises a:hover, a:active {
-  display: inline-block;
-  border: solid;
-}
-#weekly-exercises a:link, a:visited {
-  color: #000000;
-  padding: 14px 25px;
+
+#weekly-exercises
+  a:link, a:visited {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 10px 16px;
   text-decoration: none;
 }
-#weekly-exercises a:hover, a:active {
-  display: inline-block;
-  border: solid;
-}
-#projects a:link, a:visited {
-  color: #000000;
-  padding: 14px 25px;
+
+
+#projects
+  a:link, a:visited {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 10px 16px;
   text-decoration: none;
 }
-#projects :hover, a:active {
-  display: inline-block;
-  border: solid;
+
+
+.column{
+  float: left;
+  width: 33%;
+  max-width: 500px;
+  column-gap: 40px;
 }
 
 
@@ -85,4 +104,5 @@ footer {
   padding: 20px;
   font-size: 8pt;
   font-style: normal;
+
 }
