@@ -1,7 +1,7 @@
 
 
 
-
+/* VEVEGATION */
 #nav ul {
   list-style-type: none;
   margin: 0;
@@ -26,7 +26,7 @@
 }
 
 
-
+/* BODY/PARAHRAPH/HEADER */
 body  {
   margin-left: 200px;
   margin-right: 200px;
@@ -52,14 +52,13 @@ p {
   text-align: center;
 }
 
-
+/* COLUMN */
 .column{
   float: left;
   width: 31%;
   column-gap: 40px;
   border: solid;
 }
-
 .column a:link {
     display: block;
     color: black;
@@ -67,12 +66,19 @@ p {
     padding: 10px 16px;
     text-decoration: none;
 }
-
+.column a:visited {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 10px 16px;
+    text-decoration: none;
+}
 .column a:Hover {
   color: #FF00FF;
 }
 
 
+/* FOOTER */
 #page-container {
   position: relative;
   min-height: 100vh;
