@@ -67,11 +67,7 @@ p {
     text-decoration: none;
 }
 .column a:visited {
-    display: block;
     color: black;
-    text-align: center;
-    padding: 10px 16px;
-    text-decoration: none;
 }
 .column a:Hover {
   color: #FF00FF;
