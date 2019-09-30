@@ -18,16 +18,20 @@ body {
         left: 50px;
 }
 
-img {
+#img {
   width: 100px;
   transform: translate(200px, 130px)
 }
 
 #img2{
-  transform: translate(110px, 130px) rotate(90deg);
+  width: 100px;
+  transform: translate(190px, 140px) rotate(90deg);
 }
 
 #img3{
-  transform: translate(20px,-50px) rotate(90deg);
-  filter: FlipV;
+  width: 100px;
+  transform: translate(150px, 100px) rotate(90deg);
+  transform: scaleX(-1);
+  filter: FlipH;
+ -ms-filter: "FlipH";
 }
