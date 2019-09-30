@@ -6,7 +6,7 @@
 
 /* make the background of the page black */
 body {
-        background: black;
+        background: white;
 }
 
 /* flag canvas */
@@ -15,19 +15,21 @@ body {
         height: 340px;
         position: relative;
         background: #BE1E2D;
+        top: 50px;
+        left: 50px;
 }
 
 /* shapes */
 #circle {
-        width: 100px;
-        height: 100px;
+        width: 50px;
+        height: 50px;
         background: #ffffff;
         border-radius: 75px;
 
         /* position the circle in the center of the flag */
         position: absolute;
-        top: 170px;
-        left: 320px;
+        top: 198px;
+        left: 325px;
 }
 
 #circle2 {
@@ -36,12 +38,35 @@ body {
   border: solid;
   border-radius: 75px;
   color: white;
-
-  /* position the circle in the center of the flag */
+  /* position */
   position: absolute;
   top: 30px;
-  left: 80px;
+  left: 90px;
 }
+
+#circle3 {
+  width: 80px;
+  height: 80px;
+  border: solid;
+  border-radius: 75px;
+  color: white;
+  /* position */
+  position: absolute;
+  top: 181px;
+  left: 307px;
+}
+
+#circle4 {
+    width: 50px;
+    height: 50px;
+    border: solid;
+    border-radius: 75px;
+    color: white;
+    /* position */
+    position: absolute;
+    top: 25px;
+    left: 80px;
+  }
 
 
 #bluesquare{
@@ -50,19 +75,24 @@ body {
   background: #6DFFE7;
 }
 
-img {
-  width:50px;
-}
 
 hr {
-  transform: rotate(30deg);
-  width: 500px;
+  transform: rotate(35deg);
+  width: 175px;
+  weight: 2px;
   color: white;
   position: absolute;
+    /* position */
+    top: 145px;
+    left: 155px;
 }
 
 
 img{
-  width: 50px;
+  width: 200px;
+  transform: translate(243px, -23px) rotate(70deg);
 
+  /* position */
+  top: 30px;
+  left: 200px;
 }

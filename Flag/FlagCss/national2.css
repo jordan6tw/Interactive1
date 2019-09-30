@@ -5,7 +5,7 @@
 
 /* make the background of the page black */
 body {
-        background: black;
+        background: white;
 }
 
 /* flag canvas */
@@ -13,5 +13,11 @@ body {
         width: 500px;
         height: 340px;
         position: relative;
-        background: #BE1E2D;
+        background: black;
+        top: 50px;
+        left: 50px;
+}
+
+img {
+  width: 100px;
 }

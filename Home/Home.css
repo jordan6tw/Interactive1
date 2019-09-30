@@ -52,65 +52,45 @@ p {
   text-align: center;
 }
 
-#exercises, #weekly-exercises, #projects {
-  border: solid;
-}
-
-
-#exercises
-  a:link, a:visited {
-  display: block;
-  color: black;
-  text-align: center;
-  padding: 10px 16px;
-  text-decoration: none;
-}
-#exercises a:Hover {
-  color: #FF00FF;
-}
-
-
-#weekly-exercises
-  a:link, a:visited {
-  display: block;
-  color: black;
-  text-align: center;
-  padding: 10px 16px;
-  text-decoration: none;
-}
-#weekly-exercises a:Hover {
-  color: #FF00FF;
-}
-
-
-#projects
-  a:link, a:visited {
-  display: block;
-  color: black;
-  text-align: center;
-  padding: 10px 16px;
-  text-decoration: none;
-}
-#projects a:Hover {
-  color: #FF00FF;
-}
-
 
 .column{
   float: left;
-  width: 33%;
+  width: 31%;
   column-gap: 40px;
+  border: solid;
+}
+
+.column a:link {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 10px 16px;
+    text-decoration: none;
+}
+
+.column a:Hover {
+  color: #FF00FF;
 }
 
 
+#page-container {
+  position: relative;
+  min-height: 100vh;
+}
 
+#content-wrap {
+  padding-bottom: 7rem;    /* Footer height */
+}
 
-
-footer {
+#footer {
   color: #000000;
   text-align: center;
   padding: 20px;
   font-size: 8pt;
   font-style: normal;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;
 
 }
