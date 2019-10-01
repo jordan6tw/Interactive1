@@ -1,11 +1,10 @@
 /* reset styles */
-* {
-        margin: 0px; padding: 0px;
+* {  margin: 0px; padding: 0px;
 }
 
 /* make the background of the page black */
 body {
-        background: white;
+  background: white;
 }
 
 /* flag canvas */
@@ -14,18 +13,15 @@ body {
         height: 350px;
         position: relative;
         background: black;
-        margin-left: auto;
-        margin-right: auto;
-        margin-top: 250px;
+        top: 100px;
+        left: 140px;
 }
 
 #img {
   width: 100px;
   transform: translate(248px, 104px);
-  position: absolute;}
-
-
-
+  position: absolute;
+}
 
 #img2{
   width: 100px;
@@ -42,40 +38,27 @@ body {
   filter: FlipH;
  -ms-filter: "FlipH";
 }
+
 #img4 {
   width: 150px;
   position: absolute;
   transform: translate(205px, 165px) rotate(90deg);
 }
+
 #img5{
   width: 100px;
   transform: translate(120px, 175px);
   position: absolute;
 }
 
-
-
-.pause{
-  -webkit-animation-name: pulse; /* Safari 4.0 - 8.0 */
-  -webkit-animation-duration: .8s; /* Safari 4.0 - 8.0 */
-  -webkit-animation-iteration-count: infinite; /* Safari 4.0 - 8.0 */
-  -webkit-animation-direction: alternate; /* Safari 4.0 - 8.0 */
-  -webkit-animation-timing-function: ease-in-out;
+.pulse{
   animation-name: pulse;
   animation-duration: .8s;
   animation-iteration-count: infinite;
   animation-direction: alternate;
   animation-timing-function: ease-in-out;
 }
-
-/* Safari 4.0 - 8.0 */
-@-webkit-keyframes pulse {
-  0% { transform: scale(1); }
-  100% { transform: scale(1.05); }
-}
-
-/* Standard syntax */
 @keyframes pulse {
   0% { transform: scale(1); }
-  100% { transform: scale(1.05); }
+  100% { transform: scale(1.20); }
 }
