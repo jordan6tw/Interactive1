@@ -15,8 +15,9 @@ body {
         height: 340px;
         position: relative;
         background: #BE1E2D;
-        top: 50px;
-        left: 50px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 250px;
 }
 
 /* shapes */
