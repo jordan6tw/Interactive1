@@ -52,12 +52,7 @@ body {
   position: absolute;
 }
 
-#box {
-  width: 445px;
-  height: 345px;
-  border: solid;
-  color: black;
-}
+
 
 .pause{
   -webkit-animation-name: pulse; /* Safari 4.0 - 8.0 */

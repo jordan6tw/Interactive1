@@ -60,27 +60,11 @@ body {
   animation-timing-function: linear;
 }
 
-#circle4 {
-    width: 50px;
-    height: 50px;
-    border: solid;
-    border-radius: 75px;
-    color: white;
-    /* position */
-    position: absolute;
-    top: 25px;
-    left: 80px;
-    animation: spin;
-    animation-duration: 10s;
-    animation-iteration-count: infinite;
-    animation-timing-function: linear;
-  }
-
 
 #bluesquare{
   width: 250px;
   height: 150px;
-  background: #6DFFE7;
+  background: blue;
 }
 
 
@@ -114,7 +98,7 @@ img{
     transform: scale(1) rotate(0deg) ;
   }
   to {
-    transform: scale(4) rotate(360deg);
+    transform: scale(1) rotate(360deg);
   }
 }
 
