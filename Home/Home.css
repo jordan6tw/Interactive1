@@ -53,11 +53,15 @@ p {
 }
 
 /* COLUMN */
+.container{
+  column-count: 3;
+  column-gap: 20px;
+}
 .column{
-  float: left;
-  width: 31%;
-  column-gap: 40px;
   border: solid;
+  -webkit-column-break-inside: avoid;
+  page-break-inside: avoid;
+  break-inside: avoid;
 }
 .column a:link {
     display: block;
