@@ -41,8 +41,8 @@ body {
   color: white;
   /* position */
   position: absolute;
-  top: 30px;
-  left: 90px;
+  top: 45px;
+  left: 83px;
 }
 
 #circle3 {
@@ -63,7 +63,7 @@ body {
 
 #bluesquare{
   width: 250px;
-  height: 150px;
+  height: 170px;
   background: blue;
 }
 
@@ -98,7 +98,7 @@ img{
     transform: scale(1) rotate(0deg) ;
   }
   to {
-    transform: scale(1.8) rotate(360deg);
+    transform: scale(1) rotate(360deg);
   }
 }
 
