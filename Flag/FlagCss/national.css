@@ -54,6 +54,10 @@ body {
   position: absolute;
   top: 181px;
   left: 307px;
+  animation: spin;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
 }
 
 #circle4 {
@@ -66,6 +70,10 @@ body {
     position: absolute;
     top: 25px;
     left: 80px;
+    animation: spin;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
   }
 
 
@@ -95,17 +103,18 @@ img{
   left: 245px;
   width: 200px;
   animation: spin;
-  animation-duration: 5000ms;
+  animation-duration: 10s;
   animation-iteration-count: infinite;
   animation-timing-function: linear;
+  animation direction: alternate;
 }
 
 @keyframes spin {
   from{
-    transform: rotate(0deg);
+    transform: scale(1) rotate(0deg) ;
   }
   to {
-    transform: rotate(360deg)
+    transform: scale(4) rotate(360deg);
   }
 }
 

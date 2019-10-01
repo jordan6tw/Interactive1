@@ -10,28 +10,76 @@ body {
 
 /* flag canvas */
 #canvas {
-        width: 500px;
-        height: 340px;
+        width: 450px;
+        height: 350px;
         position: relative;
         background: black;
-        top: 50px;
-        left: 50px;
+        top: 100px;
+        left: 140px;
 }
 
 #img {
   width: 100px;
-  transform: translate(200px, 130px)
-}
+  transform: translate(248px, 104px);
+  position: absolute;}
+
+
+
 
 #img2{
   width: 100px;
-  transform: translate(190px, 140px) rotate(90deg);
+  position: absolute;
+  transform: scaleX(-1) translate(-197px, 54px) rotate(-90deg);
+  filter: FlipH;
+ -ms-filter: "FlipH";
 }
 
 #img3{
-  width: 100px;
-  transform: translate(150px, 100px) rotate(90deg);
-  transform: scaleX(-1);
+  width: 150px;
+  position: absolute;
+  transform: scaleX(-1) translate(-90px, 50px) rotate(360deg);
   filter: FlipH;
  -ms-filter: "FlipH";
+}
+#img4 {
+  width: 150px;
+  position: absolute;
+  transform: translate(205px, 165px) rotate(90deg);
+}
+#img5{
+  width: 100px;
+  transform: translate(120px, 175px);
+  position: absolute;
+}
+
+#box {
+  width: 445px;
+  height: 345px;
+  border: solid;
+  color: black;
+}
+
+.pause{
+  -webkit-animation-name: pulse; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: .8s; /* Safari 4.0 - 8.0 */
+  -webkit-animation-iteration-count: infinite; /* Safari 4.0 - 8.0 */
+  -webkit-animation-direction: alternate; /* Safari 4.0 - 8.0 */
+  -webkit-animation-timing-function: ease-in-out;
+  animation-name: pulse;
+  animation-duration: .8s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: ease-in-out;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes pulse {
+  0% { transform: scale(1); }
+  100% { transform: scale(1.05); }
+}
+
+/* Standard syntax */
+@keyframes pulse {
+  0% { transform: scale(1); }
+  100% { transform: scale(1.05); }
 }
