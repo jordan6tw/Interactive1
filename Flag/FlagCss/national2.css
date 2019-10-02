@@ -18,30 +18,30 @@ body {
 }
 #img {
   width: 80px;
-  transform: translate(195px, 115px) rotate(-135deg);
+  transform: translate(190px, 115px) rotate(-135deg);
 }
 
 #img2{
   width: 200px;
   position: absolute;
-  transform: scaleX(-1) translate(-55px, 30px) rotate(-45deg);
+  transform: scaleX(-1) translate(-50px, 30px) rotate(-45deg);
 }
 
 #img3{
   width: 200px;
   position: absolute;
-  transform: scaleX(-1) translate(-210px, -50px) rotate(135deg);
+  transform: scaleX(-1) translate(-205px, -50px) rotate(135deg);
 }
 
 #img4 {
   width: 200px;
   position: absolute;
-  transform: translate(55px, -50px) rotate(135deg);
+  transform: translate(50px, -50px) rotate(135deg);
 }
 
 #img5{
   width: 200px;
-  transform: translate(210px, 30px) rotate(-45deg);
+  transform: translate(205px, 30px) rotate(-45deg);
   position: absolute;
 }
 
