@@ -10,44 +10,39 @@ body {
 /* flag canvas */
 #canvas {
         width: 450px;
-        height: 350px;
+        height: 300px;
         position: relative;
         background: black;
         top: 100px;
         left: 140px;
 }
-
 #img {
-  width: 100px;
-  transform: translate(248px, 104px);
+  width: 80px;
+  transform: translate(180px, 89px);
   position: absolute;
 }
 
 #img2{
-  width: 100px;
+  width: 150px;
   position: absolute;
-  transform: scaleX(-1) translate(-197px, 54px) rotate(-90deg);
-  filter: FlipH;
- -ms-filter: "FlipH";
+  transform: scaleX(-1) translate(-120px, 130px) rotate(360deg);
 }
 
 #img3{
   width: 150px;
   position: absolute;
-  transform: scaleX(-1) translate(-90px, 50px) rotate(360deg);
-  filter: FlipH;
- -ms-filter: "FlipH";
+  transform: scaleX(-1) translate(-165px, -5px) rotate(180deg);
 }
 
 #img4 {
   width: 150px;
   position: absolute;
-  transform: translate(205px, 165px) rotate(90deg);
+  transform: translate(75px, 85px) rotate(90deg);
 }
 
 #img5{
-  width: 100px;
-  transform: translate(120px, 175px);
+  width: 150px;
+  transform: translate(210px, 40px) rotate(-90deg);
   position: absolute;
 }
 
@@ -57,6 +52,7 @@ body {
   animation-iteration-count: infinite;
   animation-direction: alternate;
   animation-timing-function: ease-in-out;
+  transform-origin: 0% 0%;
 }
 @keyframes pulse {
   0% { transform: scale(1); }
