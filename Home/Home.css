@@ -59,9 +59,10 @@ h3 {
   text-align: left;
 }
 img{
-  max-width: 30%;
+  max-width: 40%;
   align-items: left;
   animation: huerotate 1s linear infinite;
+  margin-left: -30%;
 }
 
 @keyframes huerotate {
