@@ -12,7 +12,7 @@ body {
 /* flag canvas */
 #canvas {
         width: 500px;
-        height: 340px;
+        height: 300px;
         position: relative;
         background: #BE1E2D;
         margin-left: auto;
@@ -29,7 +29,7 @@ body {
 
         /* position the circle in the center of the flag */
         position: absolute;
-        top: 198px;
+        top: 175px;
         left: 325px;
 }
 
@@ -41,51 +41,25 @@ body {
   color: white;
   /* position */
   position: absolute;
-  top: 45px;
+  top: 35px;
   left: 83px;
 }
 
-#circle3 {
-  width: 80px;
-  height: 80px;
-  border: solid;
-  border-radius: 75px;
-  color: white;
-  /* position */
-  position: absolute;
-  top: 181px;
-  left: 307px;
-  animation: spin;
-  animation-duration: 10s;
-  animation-iteration-count: infinite;
-  animation-timing-function: linear;
-}
 
 #bluesquare{
   width: 250px;
-  height: 170px;
+  height: 150px;
   background: blue;
 }
 
-
-hr {
-  transform: rotate(35deg);
-  width: 175px;
-  weight: 2px;
-  color: white;
-  position: absolute;
-    /* position */
-    top: 145px;
-    left: 155px;
-}
 
 
 img{
   position: absolute;
   z-index: 1;
-  top: 123px;
-  left: 250px;
-  width: 200px;
+  top: 130px;
+  left: 280px;
+  width: 140px;
   animation: spin;
   animation-duration: 10s;
   animation-iteration-count: infinite;
