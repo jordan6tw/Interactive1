@@ -52,7 +52,27 @@ p {
   text-align: center;
 }
 
-/* COLUMN */
+h3 {
+  font-family: mencken-std, sans-serif;
+  font-weight: 500;
+  font-style: italic;
+  text-align: left;
+}
+img{
+  max-width: 30%;
+  align-items: left;
+  animation: huerotate 1s linear infinite;
+}
+
+@keyframes huerotate {
+ from {
+   filter: hue-rotate(0deg)
+ }
+ to {
+   filter: hue-rotate(360deg);
+ }
+}
+
 .container{
   column-count: 3;
   column-gap: 20px;
