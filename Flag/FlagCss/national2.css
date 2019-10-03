@@ -9,42 +9,55 @@ body {
 
 /* flag canvas */
 #canvas {
-        width: 450px;
+        width: 500px;
         height: 300px;
         position: relative;
         background: black;
-        top: 100px;
-        left: 140px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 250px;
 }
 #img {
   width: 80px;
-  transform: translate(190px, 115px) rotate(-135deg);
+  transform: translate(250px, 115px) rotate(-135deg);
 }
 
 #img2{
   width: 200px;
   position: absolute;
-  transform: scaleX(-1) translate(-50px, 30px) rotate(-45deg);
+  transform: scaleX(-1) translate(-80px, 30px) rotate(-45deg);
 }
 
 #img3{
   width: 200px;
   position: absolute;
-  transform: scaleX(-1) translate(-205px, -50px) rotate(135deg);
+  transform: scaleX(-1) translate(-355px, -50px) rotate(135deg);
 }
 
 #img4 {
   width: 200px;
   position: absolute;
-  transform: translate(50px, -50px) rotate(135deg);
+  transform: translate(80px, -50px) rotate(135deg);
 }
 
 #img5{
   width: 200px;
-  transform: translate(205px, 30px) rotate(-45deg);
+  transform: translate(355px, 30px) rotate(-45deg);
   position: absolute;
 }
+.animation {
+  animation: huerotate 1s linear infinite;
+  margin-left: -15%;
+}
 
+@keyframes huerotate {
+ from {
+   filter: hue-rotate(0deg)
+ }
+ to {
+   filter: hue-rotate(360deg);
+ }
+}
 .pulse{
   animation-name: pulse;
   animation-duration: .8s;
@@ -55,5 +68,5 @@ body {
 }
 @keyframes pulse {
   0% { transform: scale(1); }
-  100% { transform: scale(1.02); }
+  100% { transform: scale(1.04); }
 }
