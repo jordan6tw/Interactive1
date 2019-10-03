@@ -14,7 +14,11 @@ body {
         width: 500px;
         height: 300px;
         position: relative;
-        background: #BE1E2D;
+        background: rgb(221,0,6);
+        background: linear-gradient(45deg,
+                    rgba(221,0,6,1) 0%,
+                    rgba(185,0,74,1) 35%,
+                    rgba(255,90,183,1) 100%);
         margin-left: auto;
         margin-right: auto;
         margin-top: 250px;
@@ -27,22 +31,23 @@ body {
         background: #ffffff;
         border-radius: 75px;
 
-        /* position the circle in the center of the flag */
+        /* position */
         position: absolute;
-        top: 175px;
-        left: 325px;
+        top: 51px;
+        left: 101px;
 }
 
 #circle2 {
-  width: 80px;
-  height: 80px;
+  width: 68px;
+  height: 68px;
   border: solid;
   border-radius: 75px;
   color: white;
+
   /* position */
   position: absolute;
-  top: 35px;
-  left: 83px;
+  top: 40px;
+  left: 89px;
 }
 
 
@@ -54,12 +59,14 @@ body {
 
 
 
-img{
+#sun img{
   position: absolute;
   z-index: 1;
-  top: 130px;
-  left: 280px;
-  width: 140px;
+    /* position */
+  top: 7px;
+  left: 56px;
+  width: 141px;
+
   animation: spin;
   animation-duration: 10s;
   animation-iteration-count: infinite;
@@ -67,6 +74,158 @@ img{
   animation direction: alternate;
 }
 
+#fly {
+  width: 10px;
+  height: 10px;
+  background: #ffffff;
+  border-radius: 75px;
+  position: absolute;
+  top: 50px;
+  left: 56px;
+}
+#fly2 {
+  width: 20px;
+  height: 20px;
+  background: pink;
+  border-radius: 75px;
+  position: absolute;
+  top: 50px;
+  left: 130px;
+}
+#fly3 {
+  width: 15px;
+  height: 15px;
+  background: #ffffff;
+  border-radius: 75px;
+  position: absolute;
+  top: 80px;
+  left: 150px;
+}
+#fly4 {
+  width: 8px;
+  height: 8px;
+  background: yellow;
+  border-radius: 75px;
+  position: absolute;
+  top: 100px;
+  left: 300px;
+}
+#fly5 {
+  width: 8px;
+  height: 8px;
+  background: pink;
+  border-radius: 75px;
+  position: absolute;
+  top: 80px;
+  left: 270px;
+}
+#fly6 {
+  width: 11px;
+  height: 11px;
+  background: yellow;
+  border-radius: 75px;
+  position: absolute;
+  top: 90px;
+  left: 230px;
+}
+#fly7 {
+  width: 6px;
+  height: 6px;
+  background: #ffffff;
+  border-radius: 75px;
+  position: absolute;
+  top: 60px;
+  left: 200px;
+}
+#fly8 {
+  width: 6px;
+  height: 6px;
+  background: #ffffff;
+  border-radius: 75px;
+  position: absolute;
+  top: -10px;
+  left: 30px;
+}
+#fly9 {
+  width: 6px;
+  height: 6px;
+  background: yellow;
+  border-radius: 75px;
+  position: absolute;
+  top: -40px;
+  left: 30px;
+}
+#fly10 {
+  width: 10px;
+  height: 10px;
+  background: yellow;
+  border-radius: 75px;
+  position: absolute;
+  top: -20px;
+  left: 50px;
+}
+#fly11 {
+  width: 10px;
+  height: 10px;
+  background: pink;
+  border-radius: 75px;
+  position: absolute;
+  top: 50px;
+  left: 350px;
+}
+#fly12 {
+  width: 15px;
+  height: 15px;
+  background: white;
+  border-radius: 75px;
+  position: absolute;
+  top: -50px;
+  left: 350px;
+}
+#fly13 {
+  width: 23px;
+  height: 23px;
+  background: pink;
+  border-radius: 75px;
+  position: absolute;
+  top: -10px;
+  left: 320px;
+}
+#fly14 {
+  width: 15px;
+  height: 15px;
+  background: white;
+  border-radius: 75px;
+  position: absolute;
+  top: 50px;
+  left: 300px;
+}
+#fly15 {
+  width: 10px;
+  height: 10px;
+  background: white;
+  border-radius: 75px;
+  position: absolute;
+  top: 50px;
+  left: 100px;
+}
+
+.flow {
+  animation-name: translate;
+  animation-duration: 1.6s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+@-webkit-keyframes translate {
+  0% { transform: translate(0px, 0px); }
+  10% { transform: translate(0px, 4px); }
+  30% { transform: translate(2px, 4px); }
+  50% { transform: translate(3px, 4px); }
+  75% { transform: translate(4px, 0px); }
+  100% { transform: translate(0px, 0px); }
+}
+
+}
 @keyframes spin {
   from{
     transform: scale(1) rotate(0deg) ;
@@ -77,5 +236,22 @@ img{
 }
 
 
+.move{
+  position: absolute;
+  width: 200px;
+  top: 108px;
+  left: 300px;
+
+  animation-name: pulse;
+  animation-duration: .8s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: ease-in-out;
+  transform-origin: 50% 0%;
+}
+@keyframes pulse {
+  0% { transform: scale(1); }
+  100% { transform: scale(1.01); }
+}
 
   /* position */
