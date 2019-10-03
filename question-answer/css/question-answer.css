@@ -23,8 +23,12 @@ body {
 #answer {
   display: none;
   font-family: 'Mansalva', cursive;
-  font-size: 200pt;
+  font-size: 150pt;
 }
+
+
+
+
 /* hidden message */
 @media (max-width: 1024px) {
   body {
