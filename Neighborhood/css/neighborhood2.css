@@ -28,6 +28,7 @@ nav ul a:link, a:visited {
       display: block;
       text-decoration: none;
     }
+
 nav a:hover, a:active {
         text-decoration: none;
         color: #75706A;
@@ -52,7 +53,6 @@ header {
 
 
 .headertext {
-  position: absolute;
   left: 60%;
   right: 50%;
   top: 340px;
@@ -78,6 +78,10 @@ article a:hover, a:active {
         text-decoration: none;
         color: #75706A;
       }
+
+img {
+  width: 100%;
+}
 
 p   {
     font-size: 12pt;
