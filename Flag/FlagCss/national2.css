@@ -18,31 +18,31 @@ body {
         margin-top: 250px;
 }
 #img {
-  width: 80px;
-  transform: translate(250px, 115px) rotate(-135deg);
+  transform: translate(270px, 100px);
+  position: absolute;
 }
 
 #img2{
   width: 200px;
   position: absolute;
-  transform: scaleX(-1) translate(-80px, 30px) rotate(-45deg);
+  transform: scaleX(-1) translate(-80px, 90px) rotate(-45deg);
 }
 
 #img3{
   width: 200px;
   position: absolute;
-  transform: scaleX(-1) translate(-355px, -50px) rotate(135deg);
+  transform: scaleX(-1) translate(-355px, 10px) rotate(135deg);
 }
 
 #img4 {
   width: 200px;
   position: absolute;
-  transform: translate(80px, -50px) rotate(135deg);
+  transform: translate(80px, 10px) rotate(135deg);
 }
 
 #img5{
   width: 200px;
-  transform: translate(355px, 30px) rotate(-45deg);
+  transform: translate(355px, 90px) rotate(-45deg);
   position: absolute;
 }
 .animation {
@@ -68,5 +68,5 @@ body {
 }
 @keyframes pulse {
   0% { transform: scale(1); }
-  100% { transform: scale(1.04); }
+  100% { transform: scale(1.05); }
 }
