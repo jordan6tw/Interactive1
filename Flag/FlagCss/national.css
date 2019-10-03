@@ -73,6 +73,15 @@ body {
   animation-timing-function: linear;
   animation direction: alternate;
 }
+@keyframes spin {
+  from{
+    transform: scale(1) rotate(0deg) ;
+  }
+  to {
+    transform: scale(1) rotate(360deg);
+  }
+}
+
 
 #fly {
   width: 10px;
@@ -225,16 +234,6 @@ body {
   100% { transform: translate(0px, 0px); }
 }
 
-}
-@keyframes spin {
-  from{
-    transform: scale(1) rotate(0deg) ;
-  }
-  to {
-    transform: scale(1) rotate(360deg);
-  }
-}
-
 
 .move{
   position: absolute;
@@ -251,7 +250,5 @@ body {
 }
 @keyframes pulse {
   0% { transform: scale(1); }
-  100% { transform: scale(1.01); }
+  100% { transform: scale(1.02); }
 }
-
-  /* position */
