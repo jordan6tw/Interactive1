@@ -14,7 +14,7 @@ body {
 
   nav {
       float: left;
-      width: 30%;
+      width: 20%;
       background: #f8baae;
       padding: 20px;
     }
@@ -63,7 +63,7 @@ a:link, a:visited {
   article {
     float: left;
     padding: 20px;
-    width: 70%;
+    width: 80%;
     background-color: #f1f1f1;
   }
 
