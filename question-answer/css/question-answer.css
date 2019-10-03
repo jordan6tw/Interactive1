@@ -33,7 +33,6 @@ body {
 @media (max-width: 1024px) {
   body {
     background-image: url(yell.jpg);
-    background: cover;
   }
   #answer {
     display: flex;
