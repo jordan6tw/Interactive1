@@ -1,0 +1,45 @@
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body {
+  background: black;
+  font-size: 100px;
+}
+#question{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  color: yellow;
+  width: 100vw;
+  height: 100vh;
+  font-family: 'Mansalva', cursive;
+  font-family: 'PT Sans', sans-serif;
+  font-size: 20pt;
+}
+#answer {
+  display: none;
+  font-family: 'Mansalva', cursive;
+  font-size: 200pt;
+}
+/* hidden message */
+@media (max-width: 1024px) {
+  body {
+   background: yellow;
+  }
+  #answer {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    color: black;
+    width: 100vw;
+    height: 100vh;
+  }
+  #question {
+    display: none;
+  }
+}
