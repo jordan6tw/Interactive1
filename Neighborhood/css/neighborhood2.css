@@ -1,5 +1,5 @@
 
-  * {
+* {
     box-sizing: border-box;
   }
 
@@ -12,25 +12,31 @@ body {
 }
 
 
-  nav {
+nav {
       float: left;
       width: 20%;
       background: #f8baae;
       padding: 20px;
     }
-
-
-
-nav ul {
+nav ul li{
       list-style-type: none;
-      padding: 0;
+        }
+nav ul a:link, a:visited {
       color: #000000;
+      padding: 5px 0px 5px 10px;
       border: none;
+      display: block;
+      text-decoration: none;
     }
+nav a:hover, a:active {
+        text-decoration: none;
+        color: #75706A;
+      }
 
 
 
-  header {
+
+header {
     background-color: #f6e6cb;
     padding: 30px;
     text-align: center;
@@ -45,27 +51,33 @@ nav ul {
 
 
 
-
-a:link, a:visited {
-    color: #000000;
-    border: solid;
-    padding: 10px 10px 10px 10px;
-    text-align: left;
-    text-decoration: none;
-    display: inline-block;
-  }
-  a:hover, a:active {
-    text-decoration: none;
-    color: #75706A;
-  }
+.headertext {
+  position: absolute;
+  left: 60%;
+  right: 50%;
+  top: 340px;
+  font-size: 80px;
+}
 
 
-  article {
+article {
     float: left;
     padding: 20px;
     width: 80%;
     background-color: #f1f1f1;
   }
+article a:link, a:visited {
+        color: #000000;
+        border: solid;
+        padding: 10px 10px 10px 10px;
+        text-align: left;
+        text-decoration: none;
+        display: inline-block;
+      }
+article a:hover, a:active {
+        text-decoration: none;
+        color: #75706A;
+      }
 
 p   {
     font-size: 12pt;
