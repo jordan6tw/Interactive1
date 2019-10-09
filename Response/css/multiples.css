@@ -21,11 +21,11 @@ body {
 /* desktop-tablet */
 @media (min-width: 720px) and (max-width: 1280px) {
     body {
-        background: white;
+        background: black;
     }
     #desktop-tablet{
         display: inline;
-        color: white;
+        color: black;
     }
     #tablet,
     #desktop,
@@ -39,11 +39,11 @@ body {
 /* tablet */
 @media (min-width: 670px) and (max-width: 900px) {
     body {
-        background: white;
+        background: black;
     }
     #tablet {
         display: inline;
-        color: white;
+        color: black;
     }
     #desktop-tablet,
     #desktop,
@@ -57,11 +57,11 @@ body {
 /* tablet-mobil */
 @media (max-width: 700px) {
     body {
-        background: white;
+        background: black;
     }
     #tablet-mobil {
         display: inline;
-        color: white;
+        color: black;
     }
     #desktop,
     #desktop-tablet,
@@ -73,7 +73,7 @@ body {
 }
 
 /* mobile */
-@media (max-width: 400px) {
+@media (max-width: 500px) {
     body {
     }
     #mobile {
@@ -91,7 +91,7 @@ body {
 /* print */
 @media print {
     body {
-        background: white;
+        background: black;
     }
     #print {
         display: inline;
