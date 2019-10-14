@@ -11,6 +11,10 @@ body {
     display: inline;
     color: white;
 }
+img{
+  width: 100%;
+}
+
 #desktop-tablet,
 #tablet,
 #tablet-mobil,
@@ -18,6 +22,7 @@ body {
 #print {
     display: none;
 }
+
 /* desktop-tablet */
 @media (min-width: 720px) and (max-width: 1200px) {
     body {
