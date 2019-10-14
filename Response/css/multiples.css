@@ -22,6 +22,19 @@ img{
 #print {
     display: none;
 }
+.coloranime {
+  animation: huerotate 1s linear infinite;
+  margin-left: -15%;
+}
+
+@keyframes huerotate {
+ from {
+   filter: hue-rotate(0deg)
+ }
+ to {
+   filter: hue-rotate(360deg);
+ }
+}
 
 /* desktop-tablet */
 @media (min-width: 720px) and (max-width: 1200px) {
@@ -45,7 +58,12 @@ img{
 @media (min-width: 670px) and (max-width: 1080px) {
     body {
         background: black;
-    }
+        background: rgb(3,61,98);
+        background: linear-gradient(125deg,
+                    rgba(3,61,98,1) 0%,
+                    rgba(9,49,121,0.7567401960784313) 43%,
+                    rgba(0,129,255,1) 100%);
+        }
     #tablet {
         display: inline;
         color: black;
@@ -63,6 +81,11 @@ img{
 @media (max-width: 780px) {
     body {
         background: black;
+        background: rgb(180,58,58);
+        background: linear-gradient(90deg,
+                    rgba(180,58,58,1) 0%,
+                    rgba(253,32,29,1) 50%,
+                    rgba(252,176,69,1) 100%);
     }
     #tablet-mobil {
         display: inline;
@@ -79,7 +102,10 @@ img{
 
 /* mobile */
 @media (max-width: 580px) {
-    body {
+    body {background: rgb(34,193,195);
+        background: linear-gradient(0deg,
+                    rgba(34,195,128,1) 0%,
+                    rgba(253,187,45,1) 100%);
     }
     #mobile {
         display: inline;
