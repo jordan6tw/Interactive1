@@ -46,7 +46,18 @@ p {
 
 
 /* Intro */
-.Intro {
+.AboutMyAnime {
   height: 150vh;
   position: relative;
+
+  background-image: url(wave2.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+#AboutMyAnimeText{
+  float: left;
+  width: 20%;
+  padding-left: 30px;
+  position: absolute;
 }
