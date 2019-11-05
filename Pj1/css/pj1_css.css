@@ -18,12 +18,11 @@ p {
 
 /* HomePage */
 .HomePage {
-  height: 110vh;
+  height: 100vh;
   background-image: url(Wave1-01.svg);
   background-repeat: no-repeat;
   background-position: center;
-  background-width: 100%;
-  position: relative;
+  background-size: auto 100%;
 }
 
 .HomePage h1 {
@@ -31,15 +30,13 @@ p {
   font-weight: 500;
   font-style: normal;
 
-  margin-left: 48%;
-  margin-right: 52%;
-  margin-top: 10%;
+  margin-left: 55%;
+  margin-top: 7%;
   position: absolute;
 }
 
 .HomePage h2 {
-  margin-left: 45%;
-  margin-right: 55%;
+  margin-left: 53%;
   margin-top: 10%;
   position: absolute;
 }
@@ -47,15 +44,16 @@ p {
 #HomeImage img {
   max-width: 50%;
   margin-left: -15%;
-  margin-top: 10%;
+  margin-top: 5%;
   position: absolute;
 }
 
+/* navgation */
 .HomePage a {
   display: block;
   color: black;
   text-align: left;
-  padding: 12% 5%;
+  padding: 9% 5%;
   text-decoration: none;
 
   font-family: bodoni-urw, serif;
@@ -63,66 +61,45 @@ p {
   font-style: normal;
 }
 
+.HomePage a:hover {
+  color: #808080;
+}
+
 #nav ul {
   float: left;
   width: 20%;
-  padding-left: 30px;
 
   padding-top: 10%;
-  padding-left: 5%;
+  padding-left: 10%;
 }
 
-#nav1 {
-  padding-left: 27%;
-}
-
-#nav2 {
-  padding-left: 11%;
-}
-
-#nav3 {
-  padding-left: 21%;
-}
-
-#nav4 {
-  padding-left: 27%;
-}
-
-#nav5 {
-  padding-left: 42%;
-}
-
-#nav6 {
-  padding-left: 62%;
-}
 
 
 /* AboutMyAnime */
 .AboutMyAnime {
-  height: 110vh;
+  height: 100vh;
   background-image: url(Wave2-02.svg);
   background-repeat: no-repeat;
   background-position: center;
-  background-width: 100%;
-  position: relative;
+  background-size: auto 100%;
 }
 
-#AboutMyAnimeText{
+.description{
   float: left;
   width: 20%;
-  padding-left: 30px;
+  padding-left: 8%;
 }
 
 
 /* RentalBookstore */
 .RentalBookstore {
-  height: 110vh;
+  height: 100vh;
   background-image: url(Wave3-03.svg);
   background-repeat: no-repeat;
   background-position: center;
-  background-width: 100%;
-    position: relative;
+  background-size: auto 100%;
 }
+
 
 #CommicBook img {
   transition: transform .2s;
@@ -141,6 +118,7 @@ p {
   transition: transform .2s;
   max-width: 30%;
   margin-left: 70%;
+    position: absolute;
 }
 
 #OldBookstoreInterior img:hover {
@@ -152,42 +130,38 @@ p {
 
 /* PhotoBook */
 .PhotoBook {
-  height: 110vh;
+  height: 100vh;
   background-image: url(Wave4-04.svg);
   background-repeat: no-repeat;
   background-position: center;
-  background-width: 100%;
-  position: relative;
+  background-size: auto 100%;
 }
 
 /* DigitalBook */
 .DigitalBook {
-  height: 110vh;
+  height: 100vh;
   background-image: url(Wave3-03.svg);
   background-repeat: no-repeat;
   background-position: center;
-  background-width: 100%;
-  position: relative;
+  background-size: auto 100%;
 }
 
 
 /* 2Danimation */
 .animation2D {
-  height: 110vh;
+  height: 100vh;
   background-image: url(Wave4-04.svg);
   background-repeat: no-repeat;
   background-position: center;
-  background-width: 100%;
-  position: relative;
+  background-size: auto 100%;
 }
 
 /* 3Danimation */
 
  .animation3D {
-  height: 110vh;
+  height: 100vh;
   background-image: url(Wave3-03.svg);
   background-repeat: no-repeat;
   background-position: center;
-  background-width: 100%;
-  position: relative;
+  background-size: auto 100%;
 }
