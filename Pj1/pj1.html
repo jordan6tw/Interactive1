@@ -5,6 +5,10 @@
 
     <!-- import the webpage's stylesheet -->
     <link rel="stylesheet" href="css/pj1_css.css">
+    <link rel="stylesheet" href="css/pj1_css2.css">
+    <link rel="stylesheet" href="css/response.css">
+    <link rel="stylesheet" href="css/nav.css">
+
     <link rel="stylesheet" href="https://use.typekit.net/kik8ywp.css">
     <link rel="stylesheet" href="https://use.typekit.net/kik8ywp.css">
 
@@ -13,30 +17,55 @@
   </head>
   <body>
 
-    <!-- HomePage -->
-    <div class="HomePage">
-      <div id="nav">
-        <ul>
-          <a href="#AboutMyAnime">about my anime</a>
-          <a href="#RentalBookstore">rental bookstore</a>
-          <a href="#PhotoBook">photobook</a>
-          <a href="#DigitalBook">digital book</a>
-          <a href="#2Danimation">2D nimation</a>
-          <a href="#3Danimation">3D animation</a>
-        </ul>
-      </div>
+<!-- jv -->
+    <script>
+    // When the user scrolls down 20px from the top of the document, slide down the navbar
+    window.onscroll = function() {scrollFunction()};
 
-        <h1>ANIME REVOLUTION</h1>
-        <h2>アニメ革命</h2>
-            <div id="HomeImage">
-              <img src="css/CoverImage.png">
-            </div>
+    function scrollFunction() {
+      if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 20) {
+        document.getElementById("nav").style.top = "0";
+      } else {
+        document.getElementById("nav").style.top = "-50px";
+      }
+    }
+    </script>
+
+
+
+
+    <!-- HomePage -->
+    <div id="nav">
+        <a href="#home">home</a>
+        <a href="#2">about my anime</a>
+        <a href="#3">rental bookstore</a>
+        <a href="#4">photobook</a>
+        <a href="#5">digital book</a>
+        <a href="#6">2D anime</a>
+        <a href="#7">3D anime</a>
+        </div>
+
+
+    <div class="HomePage">
+      <a id="home"></a>
+      <div id="bgimage1"></div>
+              <h1>ANIME REVOLUTION
+              <br>
+              アニメ革命</h1>
+                  <div id="HomeImage">
+                      <img src="css/CoverImage.png">
+                  </div>
+
     </div>
 
 
     <!-- Intro -->
         <div class="AboutMyAnime">
-          <a id="AboutMyAnime"></a>
+          <a id="2"></a>
+          <div id="bgimage2"></div>
+          <div class="wrapper">
+              <h2>about my anime</h2>
+              </div>
           <div class="description">
             <p>In Japan, Anime/Animation means all forms of animated media.
             Depending on where you are, the style, the color,
@@ -55,14 +84,21 @@
 
     <!-- rental bookstore -->
         <div class="RentalBookstore">
-          <a id="RentalBookstore"></a>
+          <a id="3"></a>
+          <div id="bgimage3"></div>
+          <div class="wrapper">
+            <h2>rental bookstore</h2>
+          </div>
+              <div id="CommicBook">
+                  <img src="css/CommicBook.png">
+                  </div>
+              <div id="OldBookstoreInterior">
+                  <img src="css/OldBookstoreInterior.png">
+                  </div>
+              <div id="starsanime">
+                  <img src="css/starsanime.png">
+                  </div>
 
-          <div id="CommicBook">
-             <img src="css/CommicBook.png">
-             </div>
-          <div id="OldBookstoreInterior">
-             <img src="css/OldBookstoreInterior.png">
-           </div>
           <div class="description">
           <p>The earliest way to get into anime was going to rental bookstore to rent the commicbook.
              They usually provide a membership card that allows people put credit in their card.
@@ -75,26 +111,49 @@
 
     <!-- photo book -->
         <div class="PhotoBook">
-          <a id="PhotoBook"></a>
+          <<a id="4"></a>>
+          <div id="bgimage4"></div>
+          <div class="wrapper">
+            <h2>photo book</h2>
+          </div>
+          <div id="OldComputer">
+              <img src="css/OldComputer.png">
+              </div>
         </div>
 
 
     <!-- digital book -->
         <div class="DigitalBook">
-          <a id="DigitalBook"></a>
+          <a id="5"></a>
+          <div id="bgimage5"></div>
+          <div class="wrapper">
+            <h2>digital book</h2>
+          </div>
         </div>
 
 
 
     <!-- 2D animation -->
         <div class="animation2D">
-          <a id="animation2D"></a>
+          <a id="6"></a>
+          <div id="bgimage6"></div>
+          <div class="wrapper">
+            <h2>2D animation</h2>
+          </div>
+          <div id="buster">
+              <img src="css/buster.png">
+              </div>
         </div>
 
 
     <!-- 3D animation -->
         <div class="animation3D">
-          <a id="animation3D"></a>
+          <a id="7"></a>
+          <div id="bgimage7"></div>
+          <div class="wrapper">
+            <h2>3D animation</h2>
+          </div>
         </div>
+
   </body>
 </html>

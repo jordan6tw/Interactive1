@@ -1,0 +1,56 @@
+
+
+
+
+
+#tablet,
+#mobile {
+    display: none;
+}
+.coloranime {
+  animation: huerotate 1s linear infinite;
+  margin-left: -15%;
+}
+
+@keyframes huerotate {
+ from {
+   filter: hue-rotate(0deg)
+ }
+ to {
+   filter: hue-rotate(360deg);
+ }
+}
+
+
+
+
+/* tablet */
+@media (min-width: 670px) and (max-width: 1080px) {
+    body {
+        }
+    #tablet {
+        display: inline;
+    }
+
+    #desktop,
+    #mobile {
+        display: none;
+    }
+}
+
+
+
+
+
+/* mobile */
+@media (max-width: 580px) {
+    body {
+    }
+    #mobile {
+        display: inline;
+    }
+    #desktop,
+    #tablet {
+        display: none;
+    }
+}
