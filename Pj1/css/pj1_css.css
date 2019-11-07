@@ -27,6 +27,13 @@ img {
   filter: grayscale(1)
 }
 
+.description{
+  float: left;
+  width: 20%;
+  padding-left: 8%;
+	padding-top: 5%;
+}
+
 
 
 /* Page title */

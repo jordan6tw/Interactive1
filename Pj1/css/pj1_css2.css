@@ -41,13 +41,6 @@
   opacity: 0.5;
 }
 
-.description{
-  float: left;
-  width: 20%;
-  padding-left: 8%;
-	padding-top: 5%;
-}
-
 
 /* RentalBookstore */
 .RentalBookstore {
@@ -134,6 +127,8 @@
   transition: transform .2s;
   max-width: 30%;
   padding-left: -10%;
+	padding-top: 20%;
+	position: absolute;
 }
 
 #OldComputer img:hover {

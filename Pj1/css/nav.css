@@ -1,24 +1,32 @@
-#nav {
-  background-color: #333;
-  position: fixed;
-  top: -50px;
-  width: 100%;
-  display: block;
-  transition: top 0.3s;
+
+.topnav {
+  overflow: hidden;
+  background-color: #000000;
   z-index: 1000;
+
+  font-family: bodoni-urw, serif;
+  font-weight: 500;
+  font-style: normal;
+  position: fixed;
+  width: 100%;
+
 }
 
-#nav a {
+.topnav a {
   float: right;
   display: block;
-  color: #f2f2f2;
+  color: #ffffff;
   text-align: center;
-  padding: 15px;
+  padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
 }
 
-#nav a:hover {
+.topnav a:hover {
   background-color: #ffffff;
-  color: black;
+  color: #000000;
+}
+
+.topnav .icon {
+  display: none;
 }
