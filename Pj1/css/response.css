@@ -1,6 +1,6 @@
 
 /* desktap */
-@media (min-width: 2400px) {
+@media only screen and (min-width: 2400px) {
   .topnav.responsive {position: relative;}
   .topnav.responsive .icon {
     position: absolute;
@@ -15,7 +15,7 @@
 }
 
 /* tablet */
-@media (min-width: 1900px) and (max-width: 2399px){
+@media only screen and (min-width: 1900px) {
   .topnav.responsive {position: relative;}
   .topnav.responsive .icon {
     position: absolute;
@@ -33,7 +33,7 @@
 }
 
 /* tablit-mobil */
-@media (min-width: 1201px) and (max-width: 1900 px){
+@media only screen and (min-width: 1201px) {
   .topnav a:not(:first-child) {display: none;}
   .topnav a.icon {
     float: right;
@@ -45,7 +45,7 @@
 }
 
 /* mobil */
-@media (max-width: 1200px) {
+@media only screen and (max-width: 1200px) {
   .topnav a:not(:first-child) {display: none;}
   .topnav a.icon {
     float: right;
