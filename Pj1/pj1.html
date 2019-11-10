@@ -6,8 +6,8 @@
     <!-- import the webpage's stylesheet -->
     <link rel="stylesheet" href="css/pj1_css.css">
     <link rel="stylesheet" href="css/pj1_css2.css">
-    <link rel="stylesheet" href="css/response.css">
-    <link rel="stylesheet" href="css/nav.css">
+
+    <script src="css/pj1.js" defer></script>
 
     <link rel="stylesheet" href="https://use.typekit.net/kik8ywp.css">
     <link rel="stylesheet" href="https://use.typekit.net/kik8ywp.css">
@@ -17,39 +17,23 @@
   </head>
   <body>
 
-<!-- jv -->
-    <script>
-
-    // hamburger menu / /
-    function myFunction() {
-    var x = document.getElementById("myTopnav");
-    if (x.className === "topnav") {
-      x.className += " responsive";
-    } else {
-      x.className = "topnav";
-    }
-  }
-    </script>
-
-
-
 
     <!-- HomePage -->
     <div class="topnav" id="myTopnav">
-        <a href="#home" class="active">home</a>
+        <a href="#1" class="active">home</a>
         <a href="#2">about my anime</a>
         <a href="#3">rental bookstore</a>
         <a href="#4">photobook</a>
         <a href="#5">digital book</a>
         <a href="#6">2D anime</a>
         <a href="#7">3D anime</a>
-        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-          <i class="fa fa-bars"></i></a>
+
+                  <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
         </div>
 
 
     <div class="HomePage">
-      <a id="home"></a>
+      <a id="1"></a>
       <div id="bgimage1"></div>
               <h1>ANIME REVOLUTION
               <br>
@@ -63,7 +47,7 @@
 
     <!-- Intro -->
         <div class="AboutMyAnime">
-          <a class="2"></a>
+          <a id="2"></a>
           <div id="bgimage2"></div>
           <div class="wrapper">
               <h2>about my anime</h2>
@@ -91,6 +75,13 @@
           <div class="wrapper">
             <h2>rental bookstore</h2>
           </div>
+                <div class="description">
+                      <p>The earliest way to get into anime was by going to the rental bookstore to rent the comic book.
+                      They usually provide a membership card that allows people to put credit on their cards.
+                      One iconic feature in the bookstore is the giant movable bookshelf. The other significant
+                      cherecter of the comic book is the yellowish kind of paper. Before technology became that advance,
+                      paper quality is also not that ideal.
+                    </div>
                 <div id="CommicBook">
                     <img src="css/CommicBook.png">
                     </div>
@@ -100,19 +91,9 @@
                 <div id="starsanime">
                     <img src="css/starsanime.png">
                     </div>
-
-                <div class="description">
-                    <p>The earliest way to get into anime was by going to the rental bookstore to rent the comic book.
-                    They usually provide a membership card that allows people to put credit on their cards.
-                    One iconic feature in the bookstore is the giant movable bookshelf. The other significant
-                    cherecter of the comic book is the yellowish kind of paper. Before technology became that advance,
-                    paper quality is also not that ideal.
-
-                </div>
         </div>
 
-
-    <!-- photo book -->
+<!-- photo book -->
         <div class="PhotoBook">
           <a id="4"></a>
           <div id="bgimage4"></div>
@@ -178,7 +159,6 @@
                   <div class="wrapper">
                       <h2>3D animation</h2>
                       </div>
-                      </div>
                   <div class="description">
                       <p>3D technology was a huge improvement in the anime industry. The Internet is also developed much
                       further than ever. Many people and companies upload anime to many platforms. Now people have platforms like
@@ -190,5 +170,6 @@
                       However, we still need to have the social conscious
                       of the cause-effect of everything.
                     </div>
+              </div>
   </body>
 </html>
