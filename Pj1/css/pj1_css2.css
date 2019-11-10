@@ -6,6 +6,11 @@
   height: 100vh;
   position: relative;
 }
+
+.HomePage .description {
+  column-count: 2;
+}
+
 #bgimage1 {
   background-image: url(Wave1-01.svg);
   position: absolute;
@@ -17,10 +22,21 @@
 }
 
 #HomeImage img {
-  max-width: 60%;
+  max-width: 55%;
   margin-top: 5%;
   opacity: 1.0;
+  transition: none;
 }
+
+#HomeImage img:hover {
+  -ms-transform: none; /* IE 9 */
+  -webkit-transform: none; /* Safari 3-8 */
+  transform: none;
+  -webkit-filter: none;
+  filter: none;
+}
+
+
 
 
 /* AboutMyAnime ********************************************************************************/
@@ -58,56 +74,6 @@
   opacity: 0.5;
 }
 
-
-#CommicBook img {
-  transition: transform .2s;
-  max-width: 30%;
-  padding-left: -10%;
-  padding-top: 20%;
-  position: absolute;
-}
-
-#CommicBook img:hover {
-  -ms-transform: scale(2.5); /* IE 9 */
-  -webkit-transform: scale(2.5); /* Safari 3-8 */
-  transform: scale(2.5);
-	-webkit-filter: drop-shadow(16px 16px 10px rgba(0,0,0,0.9));
-	 filter: drop-shadow(16px 16px 10px rgba(0,0,0,0.9));
-}
-
-#OldBookstoreInterior img {
-  transition: transform .2s;
-  max-width: 30%;
-  margin-left: 70%;
-  margin-top: -15%;
-  position: absolute;
-}
-
-#OldBookstoreInterior img:hover {
-  -ms-transform: scale(2.5); /* IE 9 */
-  -webkit-transform: scale(2.5); /* Safari 3-8 */
-  transform: scale(2.5);
-	-webkit-filter: drop-shadow(16px 16px 10px rgba(0,0,0,0.9));
-	filter: drop-shadow(16px 16px 10px rgba(0,0,0,0.9));
-}
-
-#starsanime img {
-  transition: transform .2s;
-  max-width: 20%;
-  margin-left: 70%;
-  margin-top: 11%;
-  position: absolute;
-}
-
-#starsanime img:hover {
-  -ms-transform: scale(2.5); /* IE 9 */
-  -webkit-transform: scale(2.5); /* Safari 3-8 */
-  transform: scale(2.5);
-	-webkit-filter: drop-shadow(16px 16px 10px rgba(0,0,0,0.9));
-	 filter: drop-shadow(16px 16px 10px rgba(0,0,0,0.9));
-}
-
-
 /* PhotoBook ******************************************************************************************/
 .PhotoBook {
   height: 100vh;
@@ -126,21 +92,6 @@
   opacity: 0.5;
 }
 
-#OldComputer img {
-  transition: transform .2s;
-  max-width: 30%;
-  padding-left: -10%;
-	padding-top: 20%;
-	position: absolute;
-}
-
-#OldComputer img:hover {
-  -ms-transform: scale(2.5); /* IE 9 */
-  -webkit-transform: scale(2.5); /* Safari 3-8 */
-  transform: scale(2.5);
-	-webkit-filter: drop-shadow(16px 16px 10px rgba(0,0,0,0.9));
-	filter: drop-shadow(16px 16px 10px rgba(0,0,0,0.9));
-}
 
 /* DigitalBook ********************************************************************************************/
 .DigitalBook {
@@ -175,20 +126,6 @@
   width: 100%;
   height: 100%;
   opacity: 0.5;
-}
-#buster img {
-  transition: transform .2s;
-  max-width: 30%;
-  margin-left: 70%;
-  position: absolute;
-}
-
-#buster img:hover {
-  -ms-transform: scale(2.5); /* IE 9 */
-  -webkit-transform: scale(2.5); /* Safari 3-8 */
-  transform: scale(2.5);
-	-webkit-filter: drop-shadow(16px 16px 10px rgba(0,0,0,0.9));
-	filter: drop-shadow(16px 16px 10px rgba(0,0,0,0.9));
 }
 
 /* 3Danimation ************************************************************************************/
