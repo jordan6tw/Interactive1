@@ -29,6 +29,7 @@
   margin-top: 15%;
   opacity: 1.0;
   transition: none;
+  position: absolute;
 }
 
 #HomeImage img:hover {
