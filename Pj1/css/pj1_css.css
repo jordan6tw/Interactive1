@@ -40,7 +40,6 @@ img {
   -webkit-filter: grayscale(1);
   filter: grayscale(1);
   vertical-align: sub;
-
   transition: transform .2s;
 }
 
@@ -57,8 +56,6 @@ img:hover {
   width: 20%;
   padding-left: 8%;
 }
-
-
 
 /* Page title *********************************************************************************************/
 .wrapper
@@ -181,10 +178,7 @@ img:hover {
     float: left;
     width: 90%;
   }
-  #bgimage2 {
-  color: #ffffff;
-  }
   body {
-    font-size: 22px;
+    font-size: 20px;
   }
 }
