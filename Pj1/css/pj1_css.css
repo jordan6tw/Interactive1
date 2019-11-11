@@ -310,7 +310,7 @@ img:hover {
 /* Page title *********************************************************************************************/
 .wrapper
 	h2 {
-    font-size: 5.5vmin;
+    font-size: 5vmin;
     font-family: bodoni-urw, serif;
     font-weight: 500;
     font-style: normal;
@@ -481,6 +481,27 @@ img:hover {
     margin-left: 50%;
     margin-top: 80%;
     position: absolute;
+  }
+  h2 {
+    font-size: 6.5vmin;
+    font-family: bodoni-urw, serif;
+    font-weight: 500;
+    font-style: normal;
+
+    background: linear-gradient(to right, #02c7f1 20%, #1379fb 30%, #0237b9 50%);
+    background-size: auto auto;
+    background-clip: border-box;
+    background-size: 200% auto;
+    background-clip: text;
+    text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: textclip 1.5s linear infinite;
+
+    display: inline-block;
+    padding-left: 8%;
+    padding-top: 3%;
+  }
 }
 
 /* Footer**************************************************************************/
