@@ -179,12 +179,10 @@ img:hover {
   }
   .description{
     float: left;
-    width: 70%;
+    width: 90%;
   }
-  img {
-    max-width: 15%;
-    margin-left: 80%;
-    position: relative;
+  #bgimage2 {
+  color: #ffffff;
   }
   body {
     font-size: 22px;
