@@ -178,7 +178,15 @@ img:hover {
     text-align: center;
   }
   .description{
-    float: center;
-    width: 65%;
+    float: left;
+    width: 70%;
+  }
+  img {
+    max-width: 15%;
+    margin-left: 80%;
+    position: relative;
+  }
+  body {
+    font-size: 22px;
   }
 }
