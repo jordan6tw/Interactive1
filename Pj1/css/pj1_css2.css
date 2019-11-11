@@ -61,9 +61,26 @@
   height: 100%;
   opacity: 0.2;
   z-index: -1;
-
 }
 
+#anime07 img{
+  max-width: 20%;
+  position: absolute;
+  margin-top: -2%;
+  margin-left: 4%;
+}
+#anime05 img{
+  max-width: 20%;
+  position: absolute;
+  margin-left: 17%;
+  margin-top: 12%;
+}
+#smartphone img{
+  max-width: 20%;
+  position: absolute;
+  margin-top: 20%;
+  margin-left: -2%;
+}
 
 /* RentalBookstore *********************************************************************************/
 .RentalBookstore {
@@ -80,7 +97,24 @@
   height: 100%;
   opacity: 0.5;
   z-index: -1;
+}
 
+#CommicBook img{
+  max-width: 20%;
+  position: absolute;
+  margin-left: 10%;
+}
+#OldBookstoreInterior img {
+  max-width: 20%;
+  position: absolute;
+  margin-left: 43%;
+  margin-top: 13%;
+}
+#starsanime img{
+  max-width: 20%;
+  position: absolute;
+  margin-top: 24%;
+  margin-left: 18%;
 }
 
 /* PhotoBook ******************************************************************************************/
@@ -100,9 +134,25 @@
   height: 100%;
   opacity: 0.5;
   z-index: -1;
-
 }
-
+#OldComputer img{
+  max-width: 20%;
+  position: absolute;
+  margin-left: 8%;
+  margin-top: -5%;
+}
+#anime08 img{
+  max-width: 20%;
+  position: absolute;
+  margin-left: 40%;
+  margin-top: 5%;
+}
+#onepiece img{
+  max-width: 20%;
+  position: absolute;
+  margin-left: 15%;
+  margin-top: 23%;
+}
 
 /* DigitalBook ********************************************************************************************/
 .DigitalBook {
@@ -120,9 +170,18 @@
   height: 100%;
   opacity: 0.5;
   z-index: -1;
-
 }
-
+#ModernBookStore img{
+  max-width: 20%;
+  position: absolute;
+  margin-left: 10%;
+}
+#DogNightCross img{
+  max-width: 15%;
+  position: absolute;
+  margin-left: 44%;
+  margin-top: 10%;
+}
 
 /* 2Danimation **************************************************************************************/
 .animation2D {
@@ -142,6 +201,26 @@
   z-index: -1;
 }
 
+#buster img{
+  max-width: 25%;
+  position: absolute;
+  margin-left: 8%;
+  margin-top: -10%;
+
+}
+#panguin img{
+  max-width: 23%;
+  position: absolute;
+  margin-left: 40%;
+  margin-top: 5%;
+}
+#animeonoldtv img{
+  max-width: 20%;
+  position: absolute;
+  margin-left: 22%;
+  margin-top: 25%;
+}
+
 /* 3Danimation ************************************************************************************/
 
  .animation3D {
@@ -158,4 +237,21 @@
   height: 100%;
   opacity: 0.5;
   z-index: -1;
+}
+#modernfight img {
+  max-width: 20%;
+  position: absolute;
+  margin-left: 8%;
+}
+#netflix img {
+  max-width: 20%;
+  position: absolute;
+  margin-left: 44%;
+  margin-top: 10%;
+}
+#gif img {
+  max-width: 28%;
+  position: absolute;
+  margin-left: 22%;
+  margin-top: 30%;
 }

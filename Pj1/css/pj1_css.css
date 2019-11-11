@@ -39,7 +39,6 @@ h3 {
 img {
   -webkit-filter: grayscale(1);
   filter: grayscale(1);
-  max-width: 20%;
   vertical-align: sub;
 
   transition: transform .2s;
