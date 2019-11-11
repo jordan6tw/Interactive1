@@ -427,10 +427,60 @@ img:hover {
   .description{
     float: left;
     width: 90%;
+    font-size: 21px;
   }
-  body {
-    font-size: 20px;
+  #bgimage2 {
+    background-image: url(Wave2-02.svg);
+    opacity: 0.2;
   }
+  #bgimage3 {
+    background-image: url(Wave3-03.svg);
+    opacity: 0.2;
+  }
+  #bgimage4 {
+    background-image: url(Wave4-04.svg);
+    opacity: 0.2;
+  }
+  #bgimage5 {
+    background-image: url(Wave3-03.svg);
+    opacity: 0.2;
+  }
+  #bgimage6 {
+    background-image: url(Wave4-04.svg);
+    opacity: 0.2;
+  }
+  #bgimage7 {
+    background-image: url(Wave3-03.svg);
+    opacity: 0.2;
+  }
+  #HomeImage img {
+    max-width: 160%;
+    margin-left: -30%;
+    margin-top: 90%;
+    opacity: 1.0;
+    transition: none;
+    position: absolute;
+  }
+  h1 {
+    font-family: bodoni-urw, serif;
+    font-weight: 500;
+    font-style: normal;
+    text-align: left;
+    font-size: 7vmin;
+
+    margin-left: 6%;
+    margin-top: 68%;
+    position: absolute;
+    }
+  h3 {
+    font-family: bodoni-urw, serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 3.5vmin;
+
+    margin-left: 50%;
+    margin-top: 90%;
+    position: absolute;
 }
 
 /* Footer**************************************************************************/
