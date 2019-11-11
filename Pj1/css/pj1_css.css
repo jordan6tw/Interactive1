@@ -20,7 +20,7 @@ h1 {
   text-align: right;
   font-size: 5vmin;
 
-  margin-left: 60%;
+  margin-left: 66%;
   margin-top: 14%;
   position: absolute;
 }
@@ -31,8 +31,8 @@ h3 {
   font-style: normal;
   font-size: 3.5vmin;
 
-  margin-left: 60%;
-  margin-top: 31%;
+  margin-left: 65%;
+  margin-top: 29%;
   position: absolute;
 }
 
@@ -180,8 +180,5 @@ img:hover {
   .description{
     float: center;
     width: 65%;
-  }
-  .HomePage .description {
-    column-count: 1;
   }
 }

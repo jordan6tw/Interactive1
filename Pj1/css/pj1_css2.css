@@ -7,11 +7,6 @@
   position: relative;
 }
 
-.HomePage .description {
-  column-count: 2;
-  column-gap: 10px;
-}
-
 
 #bgimage1 {
   background-image: url(Wave1-01.svg);
@@ -27,7 +22,7 @@
 
 #HomeImage img {
   max-width: 70%;
-  margin-top: 10%;
+  margin-top: 15%;
   opacity: 1.0;
   transition: none;
   position: absolute;
@@ -72,14 +67,14 @@
 #anime05 img{
   max-width: 20%;
   position: absolute;
-  margin-left: 17%;
-  margin-top: 12%;
+  margin-left: 47%;
+  margin-top: 10%;
 }
 #smartphone img{
   max-width: 20%;
   position: absolute;
   margin-top: 20%;
-  margin-left: -2%;
+  margin-left: 18%;
 }
 
 /* RentalBookstore *********************************************************************************/
