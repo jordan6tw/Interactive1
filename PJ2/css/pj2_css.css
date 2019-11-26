@@ -136,3 +136,39 @@
   margin-top: -25%;
   margin-left: 2%;
 }
+
+#A1-4 {
+  height: 7px;
+  width: 73px;
+  background-color: #000000;
+  border-radius: 40%;
+  transform: rotate(67deg);
+
+  position: absolute;
+  margin-top: -116%;
+  margin-left: 67%;
+}
+
+#A1-5 {
+  height: 7px;
+  width: 72px;
+  background-color: #000000;
+  border-radius: 40%;
+  transform: rotate(23deg);
+
+  position: absolute;
+  margin-top: -60%;
+  margin-left: 121%;
+}
+
+#A1-6 {
+  height: 7px;
+  width: 170px;
+  background-color: #000000;
+  border-radius: 40%;
+  transform: rotate(112.5deg);
+
+  position: absolute;
+  margin-top: -60%;
+  margin-left: 72%;
+}
