@@ -80,11 +80,25 @@
 }
 
 #A8 {
+  height: 7px;
+  width: 100px;
+  background-color: #000000;
+  border-radius: 40%;
+  transform: rotate(90deg);
 
+  margin-left: 145%;
+  margin-top: -25%;
 }
 
 #A9 {
+  height: 7px;
+  width: 100px;
+  background-color: #000000;
+  border-radius: 40%;
+  transform: rotate(135deg);
 
+  margin-left: 108%;
+  margin-top: 82%;
 }
 
 #A10 {
