@@ -1,0 +1,10 @@
+.Full {
+  position: absolute;
+}
+
+#A1 {
+   height: 7px;
+   width: 100px;
+   background-color: #555;
+   border-radius: 40%;
+   transform: rotate(15deg);}
