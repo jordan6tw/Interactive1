@@ -101,6 +101,38 @@
   margin-top: 82%;
 }
 
-#A10 {
+#A1-1 {
+  height: 7px;
+  width: 130px;
+  background-color: #000000;
+  border-radius: 40%;
+  transform: rotate(135deg);
 
+  position: absolute;
+  margin-top: -25%;
+  margin-left: 2%;
+}
+
+#A1-2 {
+  height: 7px;
+  width: 170px;
+  background-color: #000000;
+  border-radius: 40%;
+  transform: rotate(157.5deg);
+
+  position: absolute;
+  margin-top: -116%;
+  margin-left: 18%;
+}
+
+#A1-3 {
+  height: 7px;
+  width: 130px;
+  background-color: #000000;
+  border-radius: 40%;
+  transform: rotate(45deg);
+
+  position: absolute;
+  margin-top: -25%;
+  margin-left: 2%;
 }
