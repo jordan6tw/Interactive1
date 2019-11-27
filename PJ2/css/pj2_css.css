@@ -9,13 +9,33 @@
   position: absolute;
 }
 
+
+ @keyframes spin {
+  0% {
+    transform: rotateZ(0);
+  }
+  100% {
+    transform: rotateZ(360deg);
+  }
+}
+@keyframes pulse {
+  from { transform: scale(1); }
+  50% { transform: scale(0.85); }
+  to { transform: scale(1); }
+}
+
+
+
 #A1 {
    height: 7px;
    width: 100px;
+   position: relative;
    background-color: #000000;
    border-radius: 40%;
    transform: rotate(135deg);
+   animation: spin 3s linear infinite;
   }
+
 
 #A2 {
   height: 7px;
@@ -24,8 +44,9 @@
   border-radius: 40%;
   transform: rotate(90deg);
 
-  margin-left: 68%;
-  margin-top: 85%;
+  /* margin-left: 68%; */
+  /* margin-top: 85%; */
+  animation: spin 4s linear infinite;
 }
 
 #A3 {
@@ -37,6 +58,7 @@
 
    margin-left: 105%;
    margin-top: -96%;
+   animation: spin 5s linear infinite;
   }
 
 #A4 {
@@ -46,8 +68,9 @@
   border-radius: 40%;
   transform: rotate(90deg);
 
-  margin-left: -35%;
-  margin-top: 80%;
+  /* margin-left: -35%; */
+  /* margin-top: 80%; */
+  animation: spin 6s linear infinite;
 }
 
 #A5 {
@@ -58,6 +81,7 @@
 
   margin-left: 15%;
   margin-top: 48%;
+  animation: spin 7s linear infinite;
 }
 
 #A6 {
@@ -68,6 +92,7 @@
 
   margin-left: 90%;
   margin-top: -190%;
+  animation: spin 8s linear infinite;
 }
 
 #A7 {
@@ -78,6 +103,7 @@
 
   margin-left: 16%;
   margin-top: 69%;
+  animation: spin 9s linear infinite;
 }
 
 #A8 {
@@ -89,6 +115,7 @@
 
   margin-left: 145%;
   margin-top: -25%;
+  animation: spin 10s linear infinite;
 }
 
 #A9 {
@@ -100,6 +127,7 @@
 
   margin-left: 108%;
   margin-top: 82%;
+  animation: spin 6s linear infinite;
 }
 
 #A1-1 {
@@ -112,6 +140,7 @@
   position: absolute;
   margin-top: -25%;
   margin-left: 2%;
+  animation: spin 5s linear infinite;
 }
 
 #A1-2 {
@@ -124,6 +153,7 @@
   position: absolute;
   margin-top: -116%;
   margin-left: 18%;
+  animation: spin 4s linear infinite;
 }
 
 #A1-3 {
@@ -136,6 +166,7 @@
   position: absolute;
   margin-top: -25%;
   margin-left: 2%;
+  animation: spin 7s linear infinite;
 }
 
 #A1-4 {
@@ -148,6 +179,7 @@
   position: absolute;
   margin-top: -116%;
   margin-left: 67%;
+  animation: spin 8s linear infinite;
 }
 
 #A1-5 {
@@ -160,6 +192,7 @@
   position: absolute;
   margin-top: -60%;
   margin-left: 121%;
+  animation: spin 9s linear infinite;
 }
 
 #A1-6 {
@@ -172,4 +205,5 @@
   position: absolute;
   margin-top: -60%;
   margin-left: 72%;
+  animation: spin 7s linear infinite;
 }
