@@ -1,33 +1,49 @@
-.page {
-  position:  relative;
+
+ @keyframes spin {
+   0% {
+    /*transform: scale(1);*/
+    transform-origin: center center;
+    transform: rotate(-360deg) scale(0.8);
+  }
+  50% {
+    /*transform: scale(1.1);*/
+    transform-origin: right left;
+    transform: rotate(-180deg) scale(3.5);
+  }
+  100% {
+    /*transform: scale(1);*/
+    transform-origin: center center;
+    transform: rotate(0) scale(0.8);
+  }
 }
 
-
-.Full {
-  margin-top: 30%;
-  margin-left: 40%;
+#title {
+  font-family: 'Poppins', sans-serif;
+  font-size: 40px;
   position: absolute;
 }
 
-
- @keyframes spin {
-  0% {
-    transform: rotateZ(0);
-  }
-  100% {
-    transform: rotateZ(360deg);
-  }
-}
-@keyframes pulse {
-  from { transform: scale(1); }
-  50% { transform: scale(0.85); }
-  to { transform: scale(1); }
+.letterbox {
+  position: relative;
+  float: left;
+  display:block;
 }
 
-p {
 
+
+/* home CUBE------------------------------------------------------ */
+#section1 {
+  margin: 10%;
+  height: 100vh;
+
+  position: relative;
 }
 
+#box {
+  position:absolute;
+  margin-left: 40%;
+  margin-top: 20%;
+}
 
 #A1 {
    height: 7px;
@@ -36,8 +52,63 @@ p {
    background-color: #000000;
    border-radius: 40%;
    transform: rotate(135deg);
+
+   position: absolute;
+   margin-left: 5%;
    animation: spin 3s linear infinite;
   }
+
+#A3 {
+     height: 7px;
+     width: 100px;
+     background-color: #000000;
+     border-radius: 40%;
+     transform: rotate(135deg);
+
+     position: absolute;
+     margin-left: 5%;
+     margin-top: -11%;
+     animation: spin 5s linear infinite;
+    }
+
+#A9 {
+      height: 7px;
+      width: 100px;
+      background-color: #000000;
+      border-radius: 40%;
+      transform: rotate(45deg);
+
+      position: absolute;
+      margin-left:5%;
+      margin-top: 1%;
+      animation: spin 2s linear infinite;
+    }
+
+#A1-1 {
+      height: 7px;
+      width: 130px;
+      background-color: #000000;
+      border-radius: 40%;
+      transform: rotate(135deg);
+
+      position: absolute;
+      margin-top: -10%;
+      margin-left: 12%;
+      animation: spin 3s linear infinite;
+    }
+
+#A1-3 {
+      height: 7px;
+      width: 130px;
+      background-color: #000000;
+      border-radius: 40%;
+      transform: rotate(135deg);
+
+      position: absolute;
+      margin-top: 1%;
+      margin-left: 13%;
+      animation: spin 4s linear infinite;
+    }
 
 
 #A2 {
@@ -47,22 +118,10 @@ p {
   border-radius: 40%;
   transform: rotate(90deg);
 
-  /* margin-left: 68%; */
-  /* margin-top: 85%; */
-  animation: spin 4s linear infinite;
+  position: absolute;
+  margin-left: 10%;
+  animation: spin 2s linear infinite;
 }
-
-#A3 {
-   height: 7px;
-   width: 100px;
-   background-color: #000000;
-   border-radius: 40%;
-   transform: rotate(135deg);
-
-   margin-left: 105%;
-   margin-top: -96%;
-   animation: spin 5s linear infinite;
-  }
 
 #A4 {
   height: 7px;
@@ -71,9 +130,10 @@ p {
   border-radius: 40%;
   transform: rotate(90deg);
 
-  /* margin-left: -35%; */
-  /* margin-top: 80%; */
-  animation: spin 6s linear infinite;
+  position: absolute;
+  margin-left: 20%;
+  margin-top: -10%;
+  animation: spin 4s linear infinite;
 }
 
 #A5 {
@@ -82,9 +142,10 @@ p {
   background-color: #000000;
   border-radius: 40%;
 
-  margin-left: 15%;
-  margin-top: 48%;
-  animation: spin 7s linear infinite;
+  position: absolute;
+  margin-left: 5%;
+  margin-top: 5%;
+  animation: spin 4s linear infinite;
 }
 
 #A6 {
@@ -93,9 +154,10 @@ p {
   background-color: #000000;
   border-radius: 40%;
 
-  margin-left: 90%;
-  margin-top: -190%;
-  animation: spin 8s linear infinite;
+  position: absolute;
+  margin-left:5%;
+  margin-top: -5%;
+  animation: spin 5s linear infinite;
 }
 
 #A7 {
@@ -104,9 +166,10 @@ p {
   background-color: #000000;
   border-radius: 40%;
 
-  margin-left: 16%;
-  margin-top: 69%;
-  animation: spin 9s linear infinite;
+  position: absolute;
+  margin-left: 15%;
+  margin-top: -15%;
+  animation: spin 4s linear infinite;
 }
 
 #A8 {
@@ -116,35 +179,14 @@ p {
   border-radius: 40%;
   transform: rotate(90deg);
 
-  margin-left: 145%;
-  margin-top: -25%;
-  animation: spin 10s linear infinite;
-}
-
-#A9 {
-  height: 7px;
-  width: 100px;
-  background-color: #000000;
-  border-radius: 40%;
-  transform: rotate(135deg);
-
-  margin-left: 108%;
-  margin-top: 82%;
-  animation: spin 6s linear infinite;
-}
-
-#A1-1 {
-  height: 7px;
-  width: 130px;
-  background-color: #000000;
-  border-radius: 40%;
-  transform: rotate(135deg);
-
   position: absolute;
-  margin-top: -25%;
-  margin-left: 2%;
-  animation: spin 5s linear infinite;
+  margin-left: 0%;
+  margin-top: ;
+  animation: spin 3s linear infinite;
 }
+
+
+
 
 #A1-2 {
   height: 7px;
@@ -154,23 +196,12 @@ p {
   transform: rotate(157.5deg);
 
   position: absolute;
-  margin-top: -116%;
-  margin-left: 18%;
+  margin-top: -10%;
+  margin-left: 5%;
   animation: spin 4s linear infinite;
 }
 
-#A1-3 {
-  height: 7px;
-  width: 130px;
-  background-color: #000000;
-  border-radius: 40%;
-  transform: rotate(45deg);
 
-  position: absolute;
-  margin-top: -25%;
-  margin-left: 2%;
-  animation: spin 7s linear infinite;
-}
 
 #A1-4 {
   height: 7px;
@@ -180,9 +211,9 @@ p {
   transform: rotate(67deg);
 
   position: absolute;
-  margin-top: -116%;
-  margin-left: 67%;
-  animation: spin 8s linear infinite;
+  margin-top: -10%;
+  margin-left: 10%;
+  animation: spin 3s linear infinite;
 }
 
 #A1-5 {
@@ -193,9 +224,9 @@ p {
   transform: rotate(23deg);
 
   position: absolute;
-  margin-top: -60%;
-  margin-left: 121%;
-  animation: spin 9s linear infinite;
+  margin-top: -5%;
+  margin-left: 17%;
+  animation: spin 6s linear infinite;
 }
 
 #A1-6 {
@@ -206,7 +237,21 @@ p {
   transform: rotate(112.5deg);
 
   position: absolute;
-  margin-top: -60%;
-  margin-left: 72%;
-  animation: spin 7s linear infinite;
+  margin-top: -5%;
+  margin-left: 11%;
+  animation: spin 6s linear infinite;
+}
+
+/* AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA */
+#section2 {
+  margin: 10%;
+  height: 100vh;
+  position: relative;
+  display: block;
+}
+
+#letterboxa{
+  position: relative;
+  float: left;
+  display:block;
 }
