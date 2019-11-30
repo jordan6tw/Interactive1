@@ -18,240 +18,264 @@
 }
 
 #title {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'PT Serif', serif;
   font-size: 40px;
   position: absolute;
 }
 
-.letterbox {
+.section {
+  margin: 10%;
+  height: 100vh;
+  position: relative;
+}
+
+
+.letterbox{
   position: relative;
   float: left;
-  display:block;
+  display: block;
 }
+
 
 
 
 /* home CUBE------------------------------------------------------ */
-#section1 {
-  margin: 10%;
-  height: 100vh;
-
-  position: relative;
-}
-
-#box {
-  position:absolute;
-  margin-left: 40%;
-  margin-top: 20%;
-}
-
-#A1 {
-   height: 7px;
-   width: 100px;
-   position: relative;
-   background-color: #000000;
-   border-radius: 40%;
-   transform: rotate(135deg);
-
-   position: absolute;
-   margin-left: 5%;
-   animation: spin 3s linear infinite;
-  }
-
-#A3 {
-     height: 7px;
-     width: 100px;
-     background-color: #000000;
-     border-radius: 40%;
-     transform: rotate(135deg);
-
-     position: absolute;
-     margin-left: 5%;
-     margin-top: -11%;
-     animation: spin 5s linear infinite;
-    }
-
-#A9 {
-      height: 7px;
-      width: 100px;
-      background-color: #000000;
-      border-radius: 40%;
-      transform: rotate(45deg);
-
-      position: absolute;
-      margin-left:5%;
-      margin-top: 1%;
-      animation: spin 2s linear infinite;
-    }
-
-#A1-1 {
-      height: 7px;
-      width: 130px;
-      background-color: #000000;
-      border-radius: 40%;
-      transform: rotate(135deg);
-
-      position: absolute;
-      margin-top: -10%;
-      margin-left: 12%;
-      animation: spin 3s linear infinite;
-    }
-
-#A1-3 {
-      height: 7px;
-      width: 130px;
-      background-color: #000000;
-      border-radius: 40%;
-      transform: rotate(135deg);
-
-      position: absolute;
-      margin-top: 1%;
-      margin-left: 13%;
-      animation: spin 4s linear infinite;
-    }
 
 
-#A2 {
-  height: 7px;
-  width: 100px;
-  background-color: #000000;
-  border-radius: 40%;
-  transform: rotate(90deg);
-
-  position: absolute;
-  margin-left: 10%;
-  animation: spin 2s linear infinite;
-}
-
-#A4 {
-  height: 7px;
-  width: 100px;
-  background-color: #000000;
-  border-radius: 40%;
-  transform: rotate(90deg);
-
-  position: absolute;
-  margin-left: 20%;
-  margin-top: -10%;
-  animation: spin 4s linear infinite;
-}
-
-#A5 {
-  height: 7px;
-  width: 100px;
-  background-color: #000000;
-  border-radius: 40%;
-
-  position: absolute;
-  margin-left: 5%;
-  margin-top: 5%;
-  animation: spin 4s linear infinite;
-}
-
-#A6 {
-  height: 7px;
-  width: 100px;
-  background-color: #000000;
-  border-radius: 40%;
-
-  position: absolute;
-  margin-left:5%;
-  margin-top: -5%;
-  animation: spin 5s linear infinite;
-}
-
-#A7 {
-  height: 7px;
-  width: 100px;
-  background-color: #000000;
-  border-radius: 40%;
-
-  position: absolute;
-  margin-left: 15%;
-  margin-top: -15%;
-  animation: spin 4s linear infinite;
-}
-
-#A8 {
-  height: 7px;
-  width: 100px;
-  background-color: #000000;
-  border-radius: 40%;
-  transform: rotate(90deg);
-
-  position: absolute;
-  margin-left: 0%;
-  margin-top: ;
-  animation: spin 3s linear infinite;
-}
+  #box {
+        position:absolute;
+        margin-left: 40%;
+        margin-top: 20%;
+      }
 
 
 
 
-#A1-2 {
-  height: 7px;
-  width: 170px;
-  background-color: #000000;
-  border-radius: 40%;
-  transform: rotate(157.5deg);
+      #A1 {
+         height: 7px;
+         width: 100px;
+         position: relative;
+         background-color: #000000;
+         border-radius: 40%;
+         transform: rotate(135deg);
 
-  position: absolute;
-  margin-top: -10%;
-  margin-left: 5%;
-  animation: spin 4s linear infinite;
-}
+         position: absolute;
+         margin-left: 5%;
+         animation: spin 3s linear infinite;
+        }
 
+      #A3 {
+           height: 7px;
+           width: 100px;
+           background-color: #000000;
+           border-radius: 40%;
+           transform: rotate(135deg);
 
+           position: absolute;
+           margin-left: 5%;
+           margin-top: -11%;
+           animation: spin 5s linear infinite;
+          }
 
-#A1-4 {
-  height: 7px;
-  width: 73px;
-  background-color: #000000;
-  border-radius: 40%;
-  transform: rotate(67deg);
+      #A9 {
+            height: 7px;
+            width: 100px;
+            background-color: #000000;
+            border-radius: 40%;
+            transform: rotate(45deg);
 
-  position: absolute;
-  margin-top: -10%;
-  margin-left: 10%;
-  animation: spin 3s linear infinite;
-}
+            position: absolute;
+            margin-left:5%;
+            margin-top: 1%;
+            animation: spin 2s linear infinite;
+          }
 
-#A1-5 {
-  height: 7px;
-  width: 72px;
-  background-color: #000000;
-  border-radius: 40%;
-  transform: rotate(23deg);
+      #A1-1 {
+            height: 7px;
+            width: 130px;
+            background-color: #000000;
+            border-radius: 40%;
+            transform: rotate(135deg);
 
-  position: absolute;
-  margin-top: -5%;
-  margin-left: 17%;
-  animation: spin 6s linear infinite;
-}
+            position: absolute;
+            margin-top: -10%;
+            margin-left: 12%;
+            animation: spin 3s linear infinite;
+          }
 
-#A1-6 {
-  height: 7px;
-  width: 170px;
-  background-color: #000000;
-  border-radius: 40%;
-  transform: rotate(112.5deg);
+      #A1-3 {
+            height: 7px;
+            width: 130px;
+            background-color: #000000;
+            border-radius: 40%;
+            transform: rotate(135deg);
 
-  position: absolute;
-  margin-top: -5%;
-  margin-left: 11%;
-  animation: spin 6s linear infinite;
-}
+            position: absolute;
+            margin-top: 1%;
+            margin-left: 13%;
+            animation: spin 4s linear infinite;
+          }
+
+      #A2 {
+        height: 7px;
+        width: 100px;
+        background-color: #000000;
+        border-radius: 40%;
+        transform: rotate(90deg);
+
+        position: absolute;
+        margin-left: 10%;
+        animation: spin 2s linear infinite;
+      }
+
+      #A4 {
+        height: 7px;
+        width: 100px;
+        background-color: #000000;
+        border-radius: 40%;
+        transform: rotate(90deg);
+
+        position: absolute;
+        margin-left: 20%;
+        margin-top: -10%;
+        animation: spin 4s linear infinite;
+      }
+
+      #A5 {
+        height: 7px;
+        width: 100px;
+        background-color: #000000;
+        border-radius: 40%;
+
+        position: absolute;
+        margin-left: 5%;
+        margin-top: 5%;
+        animation: spin 4s linear infinite;
+      }
+
+      #A6 {
+        height: 7px;
+        width: 100px;
+        background-color: #000000;
+        border-radius: 40%;
+
+        position: absolute;
+        margin-left:5%;
+        margin-top: -5%;
+        animation: spin 5s linear infinite;
+      }
+
+      #A7 {
+        height: 7px;
+        width: 100px;
+        background-color: #000000;
+        border-radius: 40%;
+
+        position: absolute;
+        margin-left: 15%;
+        margin-top: -15%;
+        animation: spin 4s linear infinite;
+      }
+
+      #A8 {
+        height: 7px;
+        width: 100px;
+        background-color: #000000;
+        border-radius: 40%;
+        transform: rotate(90deg);
+
+        position: absolute;
+        margin-left: 0%;
+        margin-top: ;
+        animation: spin 3s linear infinite;
+      }
+
+      #A1-2 {
+        height: 7px;
+        width: 170px;
+        background-color: #000000;
+        border-radius: 40%;
+        transform: rotate(157.5deg);
+
+        position: absolute;
+        margin-top: -10%;
+        margin-left: 5%;
+        animation: spin 4s linear infinite;
+      }
+
+      #A1-4 {
+        height: 7px;
+        width: 73px;
+        background-color: #000000;
+        border-radius: 40%;
+        transform: rotate(67deg);
+
+        position: absolute;
+        margin-top: -10%;
+        margin-left: 10%;
+        animation: spin 3s linear infinite;
+      }
+
+      #A1-5 {
+        height: 7px;
+        width: 72px;
+        background-color: #000000;
+        border-radius: 40%;
+        transform: rotate(23deg);
+
+        position: absolute;
+        margin-top: -5%;
+        margin-left: 17%;
+        animation: spin 6s linear infinite;
+      }
+
+      #A1-6 {
+        height: 7px;
+        width: 170px;
+        background-color: #000000;
+        border-radius: 40%;
+        transform: rotate(112.5deg);
+
+        position: absolute;
+        margin-top: -5%;
+        margin-left: 11%;
+        animation: spin 6s linear infinite;
+      }
+
 
 /* AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA */
-#section2 {
-  margin: 10%;
-  height: 100vh;
-  position: relative;
-  display: block;
-}
+              #a1 {
+                height: 7px;
+                width: 100px;
+                border-radius: 40%;
+                background-color: #000000;
+                position: absolute;
+              }
 
-#letterboxa{
-  position: relative;
-  float: left;
-  display:block;
-}
+              #a2 {
+                height: 7px;
+                width: 100px;
+                border-radius: 40%;
+                background-color: #000000;
+                position: absolute;
+
+                transform: rotate(90deg);
+                margin-left: 5%;
+              }
+
+              #b1 {
+                height: 7px;
+                width: 100px;
+                border-radius: 40%;
+                background-color: #000000;
+                position: absolute;
+
+                transform: rotate(135deg);
+              }
+/* section2 */
+
+
+
+
+
+/* section3 */
