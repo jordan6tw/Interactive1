@@ -40,165 +40,165 @@
 
 
 /* box */
-.box1 {
-  height: 5%;
-  width: 55%;
-  border-radius: 40%;
-  background-color: #000000;
-  position: absolute;
-}
-.box2 {
-  height: 5%;
-  width: 55%;
-  border-radius: 40%;
-  background-color: #000000;
-  position: absolute;
+            .box1 {
+              height: 5%;
+              width: 55%;
+              border-radius: 40%;
+              background-color: #000000;
+              position: absolute;
+            }
+            .box2 {
+              height: 5%;
+              width: 55%;
+              border-radius: 40%;
+              background-color: #000000;
+              position: absolute;
 
-  margin-left: 37%;
-  margin-top: -38%;
-}
-.box3 {
-  height: 5%;
-  width: 55%;
-  border-radius: 40%;
-  background-color: #000000;
-  position: absolute;
+              margin-left: 37%;
+              margin-top: -38%;
+            }
+            .box3 {
+              height: 5%;
+              width: 55%;
+              border-radius: 40%;
+              background-color: #000000;
+              position: absolute;
 
-  margin-left: 10%%;
-  margin-top: 54%;
-}
-.box4 {
-  height: 5%;
-  width: 55%;
-  border-radius: 40%;
-  background-color: #000000;
-  position: absolute;
+              margin-left: 10%%;
+              margin-top: 54%;
+            }
+            .box4 {
+              height: 5%;
+              width: 55%;
+              border-radius: 40%;
+              background-color: #000000;
+              position: absolute;
 
-  transform: rotate(90deg);
-  margin-left: -28%;
-  margin-top: 27%;
-}
-.box5 {
-  height: 5%;
-  width: 55%;
-  border-radius: 40%;
-  background-color: #000000;
-  position: absolute;
+              transform: rotate(90deg);
+              margin-left: -28%;
+              margin-top: 27%;
+            }
+            .box5 {
+              height: 5%;
+              width: 55%;
+              border-radius: 40%;
+              background-color: #000000;
+              position: absolute;
 
-  transform: rotate(90deg);
-  margin-left: 27%;
-  margin-top: 27%;
-}
-.box6 {
-  height: 5%;
-  width: 55%;
-  border-radius: 40%;
-  background-color: #000000;
-  position: absolute;
+              transform: rotate(90deg);
+              margin-left: 27%;
+              margin-top: 27%;
+            }
+            .box6 {
+              height: 5%;
+              width: 55%;
+              border-radius: 40%;
+              background-color: #000000;
+              position: absolute;
 
-  transform: rotate(135deg);
-  margin-left: -9%;
-  margin-top: -19%;
-}
-.box7 {
-  height: 5%;
-  width: 55%;
-  border-radius: 40%;
-  background-color: #000000;
-  position: absolute;
+              transform: rotate(135deg);
+              margin-left: -9%;
+              margin-top: -19%;
+            }
+            .box7 {
+              height: 5%;
+              width: 55%;
+              border-radius: 40%;
+              background-color: #000000;
+              position: absolute;
 
-  transform: rotate(135deg);
-  margin-left: 45%;
-  margin-top: -18.5%;
-}
-.box8 {
-  height: 5%;
-  width: 55%;
-  border-radius: 40%;
-  background-color: #000000;
-  position: absolute;
+              transform: rotate(135deg);
+              margin-left: 45%;
+              margin-top: -18.5%;
+            }
+            .box8 {
+              height: 5%;
+              width: 55%;
+              border-radius: 40%;
+              background-color: #000000;
+              position: absolute;
 
-  transform: rotate(90deg);
-  margin-left: 64%;
-  margin-top: -10%;
-}
-.box9 {
-  height: 5%;
-  width: 75%;
-  border-radius: 40%;
-  background-color: #000000;
-  position: absolute;
+              transform: rotate(90deg);
+              margin-left: 64%;
+              margin-top: -10%;
+            }
+            .box9 {
+              height: 5%;
+              width: 75%;
+              border-radius: 40%;
+              background-color: #000000;
+              position: absolute;
 
-  transform: rotate(135deg);
-  margin-left: -10.5%;
-  margin-top: 27%;
-}
-.box10 {
-  height: 5%;
-  width: 55%;
-  border-radius: 40%;
-  background-color: #000000;
-  position: absolute;
+              transform: rotate(135deg);
+              margin-left: -10.5%;
+              margin-top: 27%;
+            }
+            .box10 {
+              height: 5%;
+              width: 55%;
+              border-radius: 40%;
+              background-color: #000000;
+              position: absolute;
 
-  transform: rotate(135deg);
-  margin-left: 45%;
-  margin-top: 36%;
-}
-.box11 {
-  height: 5%;
-  width: 94%;
-  border-radius: 40%;
-  background-color: #000000;
-  position: absolute;
+              transform: rotate(135deg);
+              margin-left: 45%;
+              margin-top: 36%;
+            }
+            .box11 {
+              height: 5%;
+              width: 94%;
+              border-radius: 40%;
+              background-color: #000000;
+              position: absolute;
 
-  transform: rotate(157.5deg);
-  margin-left:-0.5%;
-  margin-top: -19%;
-}
-.box12 {
-  height: 5%;
-  width: 75%;
-  border-radius: 40%;
-  background-color: #000000;
-  position: absolute;
+              transform: rotate(157.5deg);
+              margin-left:-0.5%;
+              margin-top: -19%;
+            }
+            .box12 {
+              height: 5%;
+              width: 75%;
+              border-radius: 40%;
+              background-color: #000000;
+              position: absolute;
 
-  transform: rotate(224deg);
-  margin-left: -10.5%;
-  margin-top: 26.5%;
-}
-.box13 {
-  height: 5%;
-  width: 39.5%;
-  border-radius: 40%;
-  background-color: #000000;
-  position: absolute;
+              transform: rotate(224deg);
+              margin-left: -10.5%;
+              margin-top: 26.5%;
+            }
+            .box13 {
+              height: 5%;
+              width: 39.5%;
+              border-radius: 40%;
+              background-color: #000000;
+              position: absolute;
 
-  transform: rotate(66deg);
-  margin-left: 26%;
-  margin-top: -19%;
-}
-.box14 {
-  height: 5%;
-  width: 39%;
-  border-radius: 40%;
-  background-color: #000000;
-  position: absolute;
+              transform: rotate(66deg);
+              margin-left: 26%;
+              margin-top: -19%;
+            }
+            .box14 {
+              height: 5%;
+              width: 39%;
+              border-radius: 40%;
+              background-color: #000000;
+              position: absolute;
 
-  transform: rotate(204.5deg);
-  margin-left: 53%;
-  margin-top: 8.5%;
-}
-.box15 {
-  height: 5%;
-  width: 94%;
-  border-radius: 40%;
-  background-color: #000000;
-  position: absolute;
+              transform: rotate(204.5deg);
+              margin-left: 53%;
+              margin-top: 8.5%;
+            }
+            .box15 {
+              height: 5%;
+              width: 94%;
+              border-radius: 40%;
+              background-color: #000000;
+              position: absolute;
 
-  transform: rotate(112deg);
-  margin-left: 25.5%;
-  margin-top: 9.5%;
-}
+              transform: rotate(112deg);
+              margin-left: 25.5%;
+              margin-top: 9.5%;
+            }
 /* home CUBE------------------------------------------------------ */
 
 /* animated box */
@@ -209,373 +209,195 @@
   margin-left: 40%;
   margin-top: 30%;
 }
-      #A1 {
-          height: 5%;
-          width: 55%;
-          border-radius: 40%;
-          background-color: #000000;
-          position: absolute;
-          animation: spin 3s linear ;
-        }
+              #A1 {
+                  height: 5%;
+                  width: 55%;
+                  border-radius: 40%;
+                  background-color: #000000;
+                  position: absolute;
+                  animation: spin 3s ease-out ;
+                }
 
-      #A2 {
-          height: 5%;
-          width: 55%;
-          border-radius: 40%;
-          background-color: #000000;
-          position: absolute;
+              #A2 {
+                  height: 5%;
+                  width: 55%;
+                  border-radius: 40%;
+                  background-color: #000000;
+                  position: absolute;
 
-          margin-left: 37%;
-          margin-top: -38%;
-          animation: spin 5s linear ;
-          }
+                  margin-left: 37%;
+                  margin-top: -38%;
+                  animation: spin 5s ease-out ;
+                  }
 
-      #A3 {
-          height: 5%;
-          width: 55%;
-          border-radius: 40%;
-          background-color: #000000;
-          position: absolute;
+              #A3 {
+                  height: 5%;
+                  width: 55%;
+                  border-radius: 40%;
+                  background-color: #000000;
+                  position: absolute;
 
-          margin-left: 10%%;
-          margin-top: 54%;
-          animation: spin 4s linear ;
-          }
+                  margin-left: 10%%;
+                  margin-top: 54%;
+                  animation: spin 4s ease-out ;
+                  }
 
-      #A4 {
-          height: 5%;
-          width: 55%;
-          border-radius: 40%;
-          background-color: #000000;
-          position: absolute;
+              #A4 {
+                  height: 5%;
+                  width: 55%;
+                  border-radius: 40%;
+                  background-color: #000000;
+                  position: absolute;
 
-          transform: rotate(90deg);
-          margin-left: -28%;
-          margin-top: 27%;
-          animation: spin 3s linear ;
-          }
+                  transform: rotate(90deg);
+                  margin-left: -28%;
+                  margin-top: 27%;
+                  animation: spin 3s ease-out ;
+                  }
 
-      #A5 {
-          height: 5%;
-          width: 55%;
-          border-radius: 40%;
-          background-color: #000000;
-          position: absolute;
+              #A5 {
+                  height: 5%;
+                  width: 55%;
+                  border-radius: 40%;
+                  background-color: #000000;
+                  position: absolute;
 
-          transform: rotate(90deg);
-          margin-left: 27%;
-          margin-top: 27%;
-          animation: spin 4s linear ;
-          }
+                  transform: rotate(90deg);
+                  margin-left: 27%;
+                  margin-top: 27%;
+                  animation: spin 4s ease-out ;
+                  }
 
-      #A6 {
-          height: 5%;
-          width: 55%;
-          border-radius: 40%;
-          background-color: #000000;
-          position: absolute;
+              #A6 {
+                  height: 5%;
+                  width: 55%;
+                  border-radius: 40%;
+                  background-color: #000000;
+                  position: absolute;
 
-          transform: rotate(135deg);
-          margin-left: -9%;
-          margin-top: -19%;
-          animation: spin 2s linear ;
-          }
+                  transform: rotate(135deg);
+                  margin-left: -9%;
+                  margin-top: -19%;
+                  animation: spin 2s ease-out ;
+                  }
 
-      #A7 {
-          height: 5%;
-          width: 55%;
-          border-radius: 40%;
-          background-color: #000000;
-          position: absolute;
+              #A7 {
+                  height: 5%;
+                  width: 55%;
+                  border-radius: 40%;
+                  background-color: #000000;
+                  position: absolute;
 
-          transform: rotate(135deg);
-          margin-left: 45%;
-          margin-top: -18.5%;
-          animation: spin 4s linear ;
-          }
+                  transform: rotate(135deg);
+                  margin-left: 45%;
+                  margin-top: -18.5%;
+                  animation: spin 4s ease-out ;
+                  }
 
-      #A8 {
-          height: 5%;
-          width: 55%;
-          border-radius: 40%;
-          background-color: #000000;
-          position: absolute;
+              #A8 {
+                  height: 5%;
+                  width: 55%;
+                  border-radius: 40%;
+                  background-color: #000000;
+                  position: absolute;
 
-          transform: rotate(90deg);
-          margin-left: 64%;
-          margin-top: -10%;
-          animation: spin 4s linear ;
-          }
+                  transform: rotate(90deg);
+                  margin-left: 64%;
+                  margin-top: -10%;
+                  animation: spin 4s ease-out ;
+                  }
 
-      #A9 {
-          height: 5%;
-          width: 75%;
-          border-radius: 40%;
-          background-color: #000000;
-          position: absolute;
+              #A9 {
+                  height: 5%;
+                  width: 75%;
+                  border-radius: 40%;
+                  background-color: #000000;
+                  position: absolute;
 
-          transform: rotate(135deg);
-          margin-left: -10.5%;
-          margin-top: 27%;
-          animation: spin 5s linear;
-          }
+                  transform: rotate(135deg);
+                  margin-left: -10.5%;
+                  margin-top: 27%;
+                  animation: spin 5s ease-out;
+                  }
 
-      #A10 {
-          height: 5%;
-          width: 55%;
-          border-radius: 40%;
-          background-color: #000000;
-          position: absolute;
+              #A10 {
+                  height: 5%;
+                  width: 55%;
+                  border-radius: 40%;
+                  background-color: #000000;
+                  position: absolute;
 
-          transform: rotate(135deg);
-          margin-left: 45%;
-          margin-top: 36%;
-          animation: spin 4s linear ;
-          }
+                  transform: rotate(135deg);
+                  margin-left: 45%;
+                  margin-top: 36%;
+                  animation: spin 4s ease-out ;
+                  }
 
-      #A11 {
-          height: 5%;
-          width: 94%;
-          border-radius: 40%;
-          background-color: #000000;
-          position: absolute;
+              #A11 {
+                  height: 5%;
+                  width: 94%;
+                  border-radius: 40%;
+                  background-color: #000000;
+                  position: absolute;
 
-          transform: rotate(157.5deg);
-          margin-left: -0.5%;
-          margin-top: -19%;
-          animation: spin 5s linear ;
-          }
+                  transform: rotate(157.5deg);
+                  margin-left: -0.5%;
+                  margin-top: -19%;
+                  animation: spin 5s ease-out ;
+                  }
 
-      #A12 {
-          height: 5%;
-          width: 75%;
-          border-radius: 40%;
-          background-color: #000000;
-          position: absolute;
+              #A12 {
+                  height: 5%;
+                  width: 75%;
+                  border-radius: 40%;
+                  background-color: #000000;
+                  position: absolute;
 
-          transform: rotate(224deg);
-          margin-left: -10.5%;
-          margin-top: 26.5%;
-          animation: spin 4s linear ;
-          }
+                  transform: rotate(224deg);
+                  margin-left: -10.5%;
+                  margin-top: 26.5%;
+                  animation: spin 4s ease-out ;
+                  }
 
-      #A13 {
-          height: 5%;
-          width: 39.5%;
-          border-radius: 40%;
-          background-color: #000000;
-          position: absolute;
+              #A13 {
+                  height: 5%;
+                  width: 39.5%;
+                  border-radius: 40%;
+                  background-color: #000000;
+                  position: absolute;
 
-          transform: rotate(66deg);
-          margin-left: 26%;
-          margin-top: -19%;
-          animation: spin 3s linear ;
-          }
+                  transform: rotate(66deg);
+                  margin-left: 26%;
+                  margin-top: -19%;
+                  animation: spin 3s ease-out ;
+                  }
 
-      #A14 {
-          height: 5%;
-          width: 39%;
-          border-radius: 40%;
-          background-color: #000000;
-          position: absolute;
+              #A14 {
+                  height: 5%;
+                  width: 39%;
+                  border-radius: 40%;
+                  background-color: #000000;
+                  position: absolute;
 
-          transform: rotate(204.5deg);
-          margin-left: 53%;
-          margin-top: 8.5%;
-          animation: spin 5s linear ;
-          }
+                  transform: rotate(204.5deg);
+                  margin-left: 53%;
+                  margin-top: 8.5%;
+                  animation: spin 5s ease-out ;
+                  }
 
-      #A15 {
-          height: 5%;
-          width: 94%;
-          border-radius: 40%;
-          background-color: #000000;
-          position: absolute;
+              #A15 {
+                  height: 5%;
+                  width: 94%;
+                  border-radius: 40%;
+                  background-color: #000000;
+                  position: absolute;
 
-          transform: rotate(112deg);
-          margin-left: 25.5%;
-          margin-top: 9.5%;
-          animation: spin 6s linear ;
-          }
+                  transform: rotate(112deg);
+                  margin-left: 25.5%;
+                  margin-top: 9.5%;
+                  animation: spin 6s ease-out ;
+                  }
 
-
-/* A */
-              #a1 {
-                height: 5%;
-                width: 55%;
-                border-radius: 40%;
-                background-color: #000000;
-                position: absolute;
-              }
-              #a2 {
-                height: 5%;
-                width: 55%;
-                border-radius: 40%;
-                background-color: #000000;
-                position: absolute;
-
-                margin-left: 37%;
-                margin-top: -38%;
-              }
-              #a3 {
-                height: 5%;
-                width: 55%;
-                border-radius: 40%;
-                background-color: #000000;
-                position: absolute;
-
-                transform: rotate(90deg);
-                margin-left: -28%;
-                margin-top: 27%;
-              }
-              #a4 {
-                height: 5%;
-                width: 55%;
-                border-radius: 40%;
-                background-color: #000000;
-                position: absolute;
-
-                transform: rotate(90deg);
-                margin-left: 27%;
-                margin-top: 27%;
-              }
-              #a5 {
-                height: 5%;
-                width: 55%;
-                border-radius: 40%;
-                background-color: #000000;
-                position: absolute;
-
-                transform: rotate(135deg);
-                margin-left: -9%;
-                margin-top: -19%;
-              }
-              #a6 {
-                height: 5%;
-                width: 55%;
-                border-radius: 40%;
-                background-color: #000000;
-                position: absolute;
-
-                transform: rotate(135deg);
-                margin-left: 45%;
-                margin-top: -18.5%;
-              }
-/* B */
-              #b1 {
-                height: 5%;
-                width: 55%;
-                border-radius: 40%;
-                background-color: #000000;
-                position: absolute;
-              }
-              #b2 {
-                height: 5%;
-                width: 55%;
-                border-radius: 40%;
-                background-color: #000000;
-                position: absolute;
-
-                margin-left: 37%;
-                margin-top: -38%;
-              }
-              #b3 {
-                height: 5%;
-                width: 55%;
-                border-radius: 40%;
-                background-color: #000000;
-                position: absolute;
-
-                margin-left: 10%%;
-                margin-top: 54%;
-              }
-              #b4 {
-                height: 5%;
-                width: 55%;
-                border-radius: 40%;
-                background-color: #000000;
-                position: absolute;
-
-                transform: rotate(90deg);
-                margin-left: -28%;
-                margin-top: 27%;
-              }
-              #b5 {
-                height: 5%;
-                width: 55%;
-                border-radius: 40%;
-                background-color: #000000;
-                position: absolute;
-
-                transform: rotate(90deg);
-                margin-left: 27%;
-                margin-top: 27%;
-              }
-              #b6 {
-                height: 5%;
-                width: 55%;
-                border-radius: 40%;
-                background-color: #000000;
-                position: absolute;
-
-                transform: rotate(135deg);
-                margin-left: -9%;
-                margin-top: -19%;
-              }
-              #b7 {
-                height: 5%;
-                width: 55%;
-                border-radius: 40%;
-                background-color: #000000;
-                position: absolute;
-
-                transform: rotate(135deg);
-                margin-left: 45%;
-                margin-top: -18.5%;
-              }
-/* C */
-              #c1 {
-                height: 5%;
-                width: 55%;
-                border-radius: 40%;
-                background-color: #000000;
-                position: absolute;
-
-                margin-left: 10%%;
-                margin-top: 54%;
-              }
-              #c2 {
-                height: 5%;
-                width: 55%;
-                border-radius: 40%;
-                background-color: #000000;
-                position: absolute;
-
-                margin-left: 37%;
-                margin-top: -38%;
-              }
-              #c3 {
-                height: 5%;
-                width: 55%;
-                border-radius: 40%;
-                background-color: #000000;
-                position: absolute;
-
-                transform: rotate(90deg);
-                margin-left: -28%;
-                margin-top: 27%;
-              }
-              #c4 {
-                height: 5%;
-                width: 55%;
-                border-radius: 40%;
-                background-color: #000000;
-                position: absolute;
-
-                transform: rotate(135deg);
-                margin-left: -9%;
-                margin-top: -19%;
-              }
 /* D */
               #d1 {
                 height: 5%;
@@ -631,8 +453,31 @@
                 margin-left: 46%;
                 margin-top: 35%;
               }
-/* E */
-              #e1 {
+
+/* T */
+              #box2J {
+                height: 5%;
+                width: 55%;
+                border-radius: 40%;
+                background-color: #000000;
+                position: absolute;
+
+                margin-left: 28%;
+                margin-top: -38%;
+              }
+              #box15 {
+                height: 5%;
+                width: 94%;
+                border-radius: 40%;
+                background-color: #000000;
+                position: absolute;
+
+                transform: rotate(112deg);
+                margin-left: -10%;
+                margin-top: 9.5%;
+              }
+/* I */
+              #box4 {
                 height: 5%;
                 width: 55%;
                 border-radius: 40%;
@@ -640,9 +485,10 @@
                 position: absolute;
 
                 transform: rotate(90deg);
+                margin-left: 0%;
+                margin-top: 27%;
               }
-
-              #e2 {
+              #box6 {
                 height: 5%;
                 width: 55%;
                 border-radius: 40%;
@@ -650,4 +496,40 @@
                 position: absolute;
 
                 transform: rotate(135deg);
+                margin-left: 20%;
+                margin-top: -19%;
+
+              }
+/* J */
+              #box2{
+                height: 5%;
+                width: 55%;
+                border-radius: 40%;
+                background-color: #000000;
+                position: absolute;
+
+                margin-left: 12%;
+                margin-top: -38%;
+              }
+              #box8{
+                height: 5%;
+                width: 55%;
+                border-radius: 40%;
+                background-color: #000000;
+                position: absolute;
+
+                transform: rotate(90deg);
+                margin-left: 39%;
+                margin-top: -10%;
+              }
+              #box10{
+                height: 5%;
+                width: 55%;
+                border-radius: 40%;
+                background-color: #000000;
+                position: absolute;
+
+                transform: rotate(135deg);
+                margin-left: 20%;
+                margin-top: 36%;
               }
