@@ -21,6 +21,7 @@
   font-family: 'PT Serif', serif;
   font-size: 40px;
   position: absolute;
+  margin-left: 5%;
 }
 
 .section {
@@ -32,9 +33,9 @@
 .letterbox{
   float: left;
   position: relative;
-  width: 13%;
-  height: 13%;
-  margin: 0 0% 12% 5%;
+  width: 10%;
+  height: 10%;
+  margin: 0 0% 8% 5%;
 }
 
 
