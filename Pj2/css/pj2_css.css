@@ -27,13 +27,14 @@
   margin: 10%;
   height: 100vh;
   position: relative;
+  float: vertical;
 }
 
-
 .letterbox{
-  position: relative;
   float: left;
-  display: block;
+  position: relative;
+  width: 15%;
+  height: 15%;
 }
 
 
@@ -52,10 +53,10 @@
 
 
       #A1 {
-         height: 7px;
+         height: 7;
          width: 100px;
          position: relative;
-         background-color: #000000;
+         background-color: 	#00FFFF;
          border-radius: 40%;
          transform: rotate(135deg);
 
@@ -80,7 +81,7 @@
       #A9 {
             height: 7px;
             width: 100px;
-            background-color: #000000;
+            background-color:	#000000;
             border-radius: 40%;
             transform: rotate(45deg);
 
@@ -180,7 +181,7 @@
       #A8 {
         height: 7px;
         width: 100px;
-        background-color: #000000;
+        background-color: #FFFF00;
         border-radius: 40%;
         transform: rotate(90deg);
 
@@ -193,7 +194,7 @@
       #A1-2 {
         height: 7px;
         width: 170px;
-        background-color: #000000;
+        background-color: #FF00FF;
         border-radius: 40%;
         transform: rotate(157.5deg);
 
@@ -232,7 +233,7 @@
       #A1-6 {
         height: 7px;
         width: 170px;
-        background-color: #000000;
+        background-color: #00FFFF;
         border-radius: 40%;
         transform: rotate(112.5deg);
 
@@ -243,39 +244,220 @@
       }
 
 
-/* AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA */
+/* A */
               #a1 {
-                height: 7px;
-                width: 100px;
+                height: 5%;
+                width: 55%;
                 border-radius: 40%;
                 background-color: #000000;
                 position: absolute;
               }
-
               #a2 {
-                height: 7px;
-                width: 100px;
+                height: 5%;
+                width: 55%;
+                border-radius: 40%;
+                background-color: #000000;
+                position: absolute;
+
+                margin-left: 41%;
+                margin-top: -45%;
+              }
+              #a3 {
+                height: 5%;
+                width: 55%;
                 border-radius: 40%;
                 background-color: #000000;
                 position: absolute;
 
                 transform: rotate(90deg);
-                margin-left: 5%;
+                margin-left: -28%;
+                margin-top: 30%;
               }
+              #a4 {
+                height: 5%;
+                width: 55%;
+                border-radius: 40%;
+                background-color: #000000;
+                position: absolute;
 
+                transform: rotate(90deg);
+                margin-left: 28%;
+                margin-top: 30%;
+              }
+              #a5 {
+                height: 5%;
+                width: 55%;
+                border-radius: 40%;
+                background-color: #000000;
+                position: absolute;
+
+                transform: rotate(135deg);
+                margin-left: -8%;
+                margin-top: -23%;
+              }
+              #a6 {
+                height: 5%;
+                width: 55%;
+                border-radius: 40%;
+                background-color: #000000;
+                position: absolute;
+
+                transform: rotate(135deg);
+                margin-left: 48%;
+                margin-top: -23%;
+              }
+/* B */
               #b1 {
-                height: 7px;
-                width: 100px;
+                height: 5%;
+                width: 55%;
+                border-radius: 40%;
+                background-color: #000000;
+                position: absolute;
+              }
+              #b2 {
+                height: 5%;
+                width: 55%;
+                border-radius: 40%;
+                background-color: #000000;
+                position: absolute;
+
+                margin-left: 41%;
+                margin-top: -45%;
+              }
+              #b3 {
+                height: 5%;
+                width: 55%;
+                border-radius: 40%;
+                background-color: #000000;
+                position: absolute;
+
+                margin-left: 10%%;
+                margin-top: 60%;
+              }
+              #b4 {
+                height: 5%;
+                width: 55%;
+                border-radius: 40%;
+                background-color: #000000;
+                position: absolute;
+
+                transform: rotate(90deg);
+                margin-left: -28%;
+                margin-top: 30%;
+              }
+              #b5 {
+                height: 5%;
+                width: 55%;
+                border-radius: 40%;
+                background-color: #000000;
+                position: absolute;
+
+                transform: rotate(90deg);
+                margin-left: 28%;
+                margin-top: 30%;
+              }
+              #b6 {
+                height: 5%;
+                width: 55%;
+                border-radius: 40%;
+                background-color: #000000;
+                position: absolute;
+
+                transform: rotate(135deg);
+                margin-left: -8%;
+                margin-top: -23%;
+              }
+              #b7 {
+                height: 5%;
+                width: 55%;
+                border-radius: 40%;
+                background-color: #000000;
+                position: absolute;
+
+                transform: rotate(135deg);
+                margin-left: 48%;
+                margin-top: -23%;
+              }
+/* C */
+              #c1 {
+                height: 5%;
+                width: 55%;
+                border-radius: 40%;
+                background-color: #000000;
+                position: absolute;
+
+                margin-left: 10%%;
+                margin-top: 60%;
+              }
+              #c2 {
+                height: 5%;
+                width: 55%;
+                border-radius: 40%;
+                background-color: #000000;
+                position: absolute;
+
+                margin-left: 41%;
+                margin-top: -45%;
+              }
+              #c3 {
+                height: 5%;
+                width: 55%;
+                border-radius: 40%;
+                background-color: #000000;
+                position: absolute;
+
+                transform: rotate(90deg);
+                margin-left: -28%;
+                margin-top: 30%;
+              }
+              #c4 {
+                height: 5%;
+                width: 55%;
+                border-radius: 40%;
+                background-color: #000000;
+                position: absolute;
+
+                transform: rotate(135deg);
+                margin-left: -8%;
+                margin-top: -23%;
+              }
+/* D */
+              #d1 {
+                height: 5%;
+                width: 55%;
                 border-radius: 40%;
                 background-color: #000000;
                 position: absolute;
 
                 transform: rotate(135deg);
               }
-/* section2 */
 
+              #d2 {
+                height: 5%;
+                width: 55%;
+                border-radius: 40%;
+                background-color: #000000;
+                position: absolute;
 
+                transform: rotate(90deg);
+              }
+/* E */
+              #e1 {
+                height: 5%;
+                width: 55%;
+                border-radius: 40%;
+                background-color: #000000;
+                position: absolute;
 
+                transform: rotate(90deg);
+              }
 
+              #e2 {
+                height: 5%;
+                width: 55%;
+                border-radius: 40%;
+                background-color: #000000;
+                position: absolute;
 
-/* section3 */
+                transform: rotate(135deg);
+              }
