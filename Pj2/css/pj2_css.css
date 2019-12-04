@@ -42,6 +42,12 @@
 
             .section {
               margin: 10%;
+              height: 60vh;
+              position: relative;
+            }
+
+            #bigtitle {
+              margin: 0 10% 0 12%;
               height: 70vh;
               position: relative;
             }
@@ -57,11 +63,31 @@
             .letterboxtype {
               float: left;
               position: relative;
-              width: 10%;
+              width: 6%;
               height: 10%;
-              margin: 0% 0% 10% -1%;
+              margin: 0% 0% 1% -1%;
             }
 
+            .letterspace2 {
+              float: left;
+              position: relative;
+              width: 1%;
+              height: 10%;
+            }
+
+            .letterspace5 {
+              float: left;
+              position: relative;
+              width: 2%;
+              height: 10%;
+            }
+
+            .letterspace10 {
+              float: left;
+              position: relative;
+              width: 100%;
+              height: 10%;
+            }
 /* box */
             .box1 {
               height: 5%;
@@ -224,13 +250,22 @@
             }
 
 /* animated box */
-        #letterbox {
+.letterboxanimation {
   position: relative;
   width: 20%;
   height: 20%;
   margin-left: 40%;
   margin-top: 30%;
 }
+
+.letterboxanimation2 {
+  position: relative;
+  float: left;
+  width: 5%;
+  height: 5%;
+  margin: 10%;
+}
+
               #A1 {
                   height: 5%;
                   width: 55%;
