@@ -64,8 +64,8 @@
               background-color: #000000;
               position: absolute;
 
-              margin-left: 10%%;
-              margin-top: 54%;
+              margin-left: -1%;
+              margin-top: 55%;
             }
             .box4 {
               height: 5%;
@@ -86,7 +86,7 @@
               position: absolute;
 
               transform: rotate(90deg);
-              margin-left: 27%;
+              margin-left: 26%;
               margin-top: 27%;
             }
             .box6 {
@@ -108,7 +108,7 @@
               position: absolute;
 
               transform: rotate(135deg);
-              margin-left: 45%;
+              margin-left: 45.5%;
               margin-top: -18.5%;
             }
             .box8 {
@@ -457,7 +457,7 @@
 /* T */
               #box2J {
                 height: 5%;
-                width: 55%;
+                width: 68%;
                 border-radius: 40%;
                 background-color: #000000;
                 position: absolute;
@@ -477,6 +477,26 @@
                 margin-top: 9.5%;
               }
 /* I */
+              #box2I {
+                height: 5%;
+                width: 20%;
+                border-radius: 40%;
+                background-color: #000000;
+                position: absolute;
+
+                margin-left: 55%;
+                margin-top: -38%;
+              }
+              #box3I {
+                height: 5%;
+                width: 20%;
+                border-radius: 40%;
+                background-color: #000000;
+                position: absolute;
+
+                margin-left: 19%;
+                margin-top: 54%;
+              }
               #box4 {
                 height: 5%;
                 width: 55%;
