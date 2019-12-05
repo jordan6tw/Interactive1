@@ -101,15 +101,35 @@
               width: 100%;
               height: 10%;
             }
-
             .color {
-              animation: pulse 5s infinite;
               width: 100%;
               height: 100%;
             }
+
+            .color .letterboxtype {
+              animation: pulsebg 4s ease infinite;
+            }
+
+            .color .letterboxtype div {
+              animation: pulse 4s ease infinite;
+            }
             @keyframes pulse {
             0% {
-              background-color: 	#EE82EE;
+              background-color: #EE82EE;
+            }
+            50% {
+              background-color: #00FFFF;
+            }
+            100% {
+              background-color: #EE82EE;
+            }
+          }
+            @keyframes pulsebg {
+            0% {
+              background-color: #00FFFF;
+            }
+            50% {
+              background-color: #EE82EE;
             }
             100% {
               background-color: #00FFFF;
