@@ -802,3 +802,51 @@
                 margin-left: 80.5%;
                 margin-top: 26.5%;
               }
+
+/* 3 */
+              #box2-3 {
+                height: 5%;
+                width: 55%;
+                border-radius: 40%;
+                background-color: #000000;
+                position: absolute;
+
+                margin-left: 12%;
+                margin-top: -38%;
+              }
+
+              #box7-3 {
+                height: 5%;
+                width: 55%;
+                border-radius: 40%;
+                background-color: #000000;
+                position: absolute;
+
+                transform: rotate(135deg);
+                margin-left: 20.5%;
+                margin-top: -18.5%;
+              }
+
+              #box10-3 {
+                height: 5%;
+                width: 55%;
+                border-radius: 40%;
+                background-color: #000000;
+                position: absolute;
+
+                transform: rotate(135deg);
+                margin-left: 20%;
+                margin-top: 36%;
+              }
+
+              #box14-3 {
+                height: 5%;
+                width: 39%;
+                border-radius: 40%;
+                background-color: #000000;
+                position: absolute;
+
+                transform: rotate(204.5deg);
+                margin-left: 28%;
+                margin-top: 8.5%;
+              }
