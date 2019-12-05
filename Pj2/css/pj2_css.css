@@ -46,6 +46,12 @@
               position: relative;
             }
 
+            .specimensection {
+              margin: 10%;
+              height: 70vh;
+              position: relative;
+            }
+
             #bigtitle {
               margin: 0 10% 0 12%;
               height: 70vh;
@@ -82,12 +88,34 @@
               height: 10%;
             }
 
+            .letterspace6 {
+              float: left;
+              position: relative;
+              width: 25%;
+              height: 10%;
+            }
+
             .letterspace10 {
               float: left;
               position: relative;
               width: 100%;
               height: 10%;
             }
+
+            .color {
+              animation: pulse 5s infinite;
+              width: 100%;
+              height: 100%;
+            }
+            @keyframes pulse {
+            0% {
+              background-color: 	#EE82EE;
+            }
+            100% {
+              background-color: #00FFFF;
+            }
+          }
+
 /* box */
             .box1 {
               height: 5%;
