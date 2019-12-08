@@ -1,15 +1,91 @@
 
 
 /* response */
-              @media screen and (max-width: 1024px) {
+              @media only screen and (max-width: 900px) {
 
               }
 
-              @media screen and (max-width: 900px) {
+              @media only screen and (max-width: 400px) {
+                #loosebox1,
+                #loosebox2,
+                #loosebox3,
+                #loosebox4,
+                #loosebox5,
+                #loosebox6,
+                #loosebox7 {
+                  display: none;
+                }
 
-              }
+                .section #title p {
+                  font-size: x-large;
+                  position: relative;
+                  width: auto;
+                  height: auto;
+                  margin-top: 20%;
+                }
 
-              @media screen and (max-width: 600px) {
+                .section h5 {
+                  position: absolute;
+                  letter-spacing: 3px;
+                  margin-top: 40%;
+                }
+
+                .section h4 {
+                  position: absolute;
+                  margin-top: -10%;
+                  margin-left: 75%;
+                  letter-spacing: 3px;
+                }
+
+                .section h3 {
+                  Position: absolute;
+                  margin-left: 100%;
+                  margin-top: 2.5%;
+                  font-size: xx-small;
+                  width: 5%;
+                  opacity: 50%;
+                }
+
+                .section img {
+                  display: none;
+                }
+
+                .section .letterboxanimation {
+                    position: absolute;
+                    width: 40%;
+                    height: 40%;
+                    margin-left: 30%;
+                    margin-top: 70%;
+                  }
+
+                .letterboxanimation #A1 {height: 2%;}
+                .letterboxanimation #A2 {height: 2%;}
+                .letterboxanimation #A3 {height: 2%;}
+                .letterboxanimation #A4 {height: 2%;}
+                .letterboxanimation #A5 {height: 2%;}
+                .letterboxanimation #A6 {height: 2%;}
+                .letterboxanimation #A7 {height: 2%;}
+                .letterboxanimation #A8 {height: 2%;}
+                .letterboxanimation #A9 {height: 2%;}
+                .letterboxanimation #A10 {height: 2%;}
+                .letterboxanimation #A11 {height: 2%;}
+                .letterboxanimation #A12 {height: 2%;}
+                .letterboxanimation #A13 {height: 2%;}
+                .letterboxanimation #A14 {height: 2%;}
+                .letterboxanimation #A15 {height: 2%;}
+
+                 body .section {
+                     margin: 10%;
+                     height: 60vh;
+                     position: relative;
+                   }
+                .animation h1 {
+                      Position: absolute;
+                      letter-spacing: 5px;
+                      font-size: x-large;
+                      margin-left: 10%;
+                      margin-top: -67%;
+                }
 
               }
 
@@ -152,7 +228,7 @@
               margin-top: -26%;
               opacity: 50%;
             }
-
+/* A TYPEFACE DESIGN FROM TOOTHPICK & CUBE */
             h1 {
               Position: absolute;
               letter-spacing: 5px;
@@ -160,7 +236,7 @@
               margin-left: 10%;
               margin-top: -15%;
             }
-
+/* CHIAO CIAO TYPE */
             h3 {
               Position: absolute;
               margin-left: 96.5%;
@@ -169,7 +245,7 @@
               width: 5%;
               opacity: 50%;
             }
-
+/* Chiao Huang */
             h4 {
               Position: absolute;
               letter-spacing: 5px;
@@ -177,14 +253,13 @@
               margin-left: 65%;
               margin-top: -10%;
             }
-
+/* Type Design By */
             h5 {
               Position: absolute;
               letter-spacing: 5px;
               font-size: small;
               margin-left: 2%;
             }
-
 
             #loosebox1 {
               height: 1%;
@@ -262,6 +337,13 @@
               margin-top: -20%;
             }
 
+/* big title */
+            .bigtitle {
+                margin: 0 3% 0 3%;
+                height: 70vh;
+                position: relative;
+              }
+
 /* Specimen */
             .specimensection {
               margin: 10%;
@@ -269,11 +351,6 @@
               position: relative;
             }
 
-            .bigtitle {
-              margin: 0 3% 0 3%;
-              height: 70vh;
-              position: relative;
-            }
 
 /* pinky pointy blinky */
             .animation {
@@ -347,9 +424,9 @@
 
 /* animation box line */
             #boxline {
-              margin-left: 12%;
+              margin-left: 17%;
               margin-right: 20%;
-              width: 100%;
+              width: 90%;
               height: 35vh;
               position: relative;
             }
