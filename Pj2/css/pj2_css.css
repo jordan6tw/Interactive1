@@ -90,6 +90,13 @@
                 .letterboxtype .box14 {height: 2%;}
                 .letterboxtype .box15 {height: 2%;}
 
+                .letterboxtype #box2J {height: 2%;}
+                .letterboxtype #box15 {height: 2%;}
+                .letterboxtype #box2I {height: 2%;}
+                .letterboxtype #box3I {height: 2%;}
+                .letterboxtype #box4 {height: 2%;}
+                .letterboxtype #box6 {height: 2%;}
+
                  body .section {
                      margin: 10%;
                      height: 60vh;
