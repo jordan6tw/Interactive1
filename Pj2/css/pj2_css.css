@@ -26,7 +26,7 @@
 
                 .section h5 {
                   position: absolute;
-                  letter-spacing: 3px;
+                  letter-spacing: 2px;
                   margin-top: 40%;
                 }
 
@@ -34,7 +34,7 @@
                   position: absolute;
                   margin-top: -10%;
                   margin-left: 75%;
-                  letter-spacing: 3px;
+                  letter-spacing: 2px;
                 }
 
                 .section h3 {
@@ -73,6 +73,22 @@
                 .letterboxanimation #A13 {height: 2%;}
                 .letterboxanimation #A14 {height: 2%;}
                 .letterboxanimation #A15 {height: 2%;}
+
+                .letterboxtype .box1 {height: 3%;}
+                .letterboxtype .box2 {height: 2%;}
+                .letterboxtype .box3 {height: 2%;}
+                .letterboxtype .box4 {height: 2%;}
+                .letterboxtype .box5 {height: 2%;}
+                .letterboxtype .box6 {height: 2%;}
+                .letterboxtype .box7 {height: 2%;}
+                .letterboxtype .box8 {height: 2%;}
+                .letterboxtype .box9 {height: 2%;}
+                .letterboxtype .box10 {height: 2%;}
+                .letterboxtype .box11 {height: 2%;}
+                .letterboxtype .box12 {height: 2%;}
+                .letterboxtype .box13 {height: 2%;}
+                .letterboxtype .box14 {height: 2%;}
+                .letterboxtype .box15 {height: 2%;}
 
                  body .section {
                      margin: 10%;
@@ -427,7 +443,7 @@
               margin-left: 17%;
               margin-right: 20%;
               width: 90%;
-              height: 35vh;
+              height: 45vh;
               position: relative;
             }
 
