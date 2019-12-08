@@ -16,6 +16,12 @@
                   display: none;
                 }
 
+                body .section {
+                    margin: 10%;
+                    height: 60vh;
+                    position: relative;
+                  }
+
                 .section #title p {
                   font-size: x-large;
                   position: relative;
@@ -97,11 +103,40 @@
                 .letterboxtype #box4 {height: 2%;}
                 .letterboxtype #box6 {height: 2%;}
 
-                 body .section {
-                     margin: 10%;
-                     height: 60vh;
-                     position: relative;
-                   }
+                .letterbox .box1 {height: 3%;}
+                .letterbox .box2 {height: 2%;}
+                .letterbox .box3 {height: 2%;}
+                .letterbox .box4 {height: 2%;}
+                .letterbox .box5 {height: 2%;}
+                .letterbox .box6 {height: 2%;}
+                .letterbox .box7 {height: 2%;}
+                .letterbox .box8 {height: 2%;}
+                .letterbox .box9 {height: 2%;}
+                .letterbox .box10 {height: 2%;}
+                .letterbox .box11 {height: 2%;}
+                .letterbox .box12 {height: 2%;}
+                .letterbox .box13 {height: 2%;}
+                .letterbox .box14 {height: 2%;}
+                .letterbox .box15 {height: 2%;}
+
+                .letterbox #d1 {height: 2%;}
+                .letterbox #d3 {height: 2%;}
+                .letterbox #d4 {height: 2%;}
+                .letterbox #d5 {height: 2%;}
+                .letterbox #d6 {height: 2%;}
+                .letterbox #box8 {height: 2%;}
+                .letterbox #box10 {height: 2%;}
+
+                .specimensection .letterbox #box2J {height: 2%;}
+                .specimensection .letterbox #box15 {height: 2%;}
+
+                .specimensection .letterbox #box2I {height: 2%;}
+                .specimensection .letterbox #box3I {height: 2%;}
+
+                .specimensection .letterbox #questionmark {height: 2%;}
+                .specimensection .letterbox #questionperiod {height: 2%;}
+                .specimensection .letterbox #boxexpo {height: 2%;}
+
                 .animation h1 {
                       Position: absolute;
                       letter-spacing: 5px;
