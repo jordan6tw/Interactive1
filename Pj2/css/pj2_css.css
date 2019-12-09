@@ -80,7 +80,7 @@
                 .letterboxanimation #A14 {height: 2%;}
                 .letterboxanimation #A15 {height: 2%;}
 
-                .letterboxtype .box1 {height: 3%;}
+                .letterboxtype .box1 {height: 2%;}
                 .letterboxtype .box2 {height: 2%;}
                 .letterboxtype .box3 {height: 2%;}
                 .letterboxtype .box4 {height: 2%;}
@@ -103,7 +103,7 @@
                 .letterboxtype #box4 {height: 2%;}
                 .letterboxtype #box6 {height: 2%;}
 
-                .letterbox .box1 {height: 3%;}
+                .letterbox .box1 {height: 2%;}
                 .letterbox .box2 {height: 2%;}
                 .letterbox .box3 {height: 2%;}
                 .letterbox .box4 {height: 2%;}
@@ -119,6 +119,10 @@
                 .letterbox .box14 {height: 2%;}
                 .letterbox .box15 {height: 2%;}
 
+                .letterbox #box2 {height: 4%;}
+                .letterbox #box6 {height: 2%;}
+                .letterbox #box4 {height: 2%;}
+                
                 .letterbox #d1 {height: 2%;}
                 .letterbox #d3 {height: 2%;}
                 .letterbox #d4 {height: 2%;}
