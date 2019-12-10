@@ -122,7 +122,7 @@
                 .letterbox #box2 {height: 4%;}
                 .letterbox #box6 {height: 2%;}
                 .letterbox #box4 {height: 2%;}
-                
+
                 .letterbox #d1 {height: 2%;}
                 .letterbox #d3 {height: 2%;}
                 .letterbox #d4 {height: 2%;}
@@ -295,8 +295,8 @@
               Position: absolute;
               letter-spacing: 5px;
               font-size: x-large;
-              margin-left: 10%;
-              margin-top: -15%;
+              margin-left: 13%;
+              margin-top: -30%;
             }
 /* CHIAO CIAO TYPE */
             h3 {
@@ -401,9 +401,10 @@
 
 /* big title */
             .bigtitle {
-                margin: 0 3% 0 3%;
-                height: 70vh;
+                width: 100%;
+                height: 90vh;
                 position: relative;
+                background-color: #000000;
               }
 
 /* Specimen */
@@ -416,8 +417,8 @@
 
 /* pinky pointy blinky */
             .animation {
-              margin: 0 0 0 12%;
-              height: 70vh;
+              margin: 10% 0 0 12%;
+              height: 90vh;
               position: relative;
             }
 
@@ -470,6 +471,7 @@
             .color {
               width: 100%;
               height: 100%;
+              padding-top: 10%;
             }
 
             .color .letterboxtype {
@@ -484,13 +486,21 @@
               margin: 0 10% 0 4.5%;
             }
 
+/* FullEdgeSection */
+            .FullEdgeSection {
+              margin: 0;
+              width: 100%;
+              height: 100vh;
+              position: relative;
+              background-color: #000000;
+            }
 /* animation box line */
             #boxline {
-              margin-left: 17%;
-              margin-right: 20%;
-              width: 90%;
-              height: 45vh;
+              margin: 0;
+              width: 100%;
+              height: 35vh;
               position: relative;
+              background-color: #000000;
             }
 
 /* box */
@@ -647,6 +657,167 @@
               width: 94%;
               border-radius: 40%;
               background-color: #000000;
+              position: absolute;
+
+              transform: rotate(112deg);
+              margin-left: 25.5%;
+              margin-top: 9.5%;
+            }
+
+/* White Box */
+            .box1White {
+              height: 5%;
+              width: 55%;
+              border-radius: 40%;
+              background-color: #FFFFFF;
+              position: absolute;
+            }
+            .box2White {
+              height: 5%;
+              width: 55%;
+              border-radius: 40%;
+              background-color: #FFFFFF;
+              position: absolute;
+
+              margin-left: 37%;
+              margin-top: -38%;
+            }
+            .box3White {
+              height: 5%;
+              width: 55%;
+              border-radius: 40%;
+              background-color: #FFFFFF;
+              position: absolute;
+
+              margin-left: -1%;
+              margin-top: 55%;
+            }
+            .box4White {
+              height: 5%;
+              width: 55%;
+              border-radius: 40%;
+              background-color: #FFFFFF;
+              position: absolute;
+
+              transform: rotate(90deg);
+              margin-left: -28%;
+              margin-top: 27%;
+            }
+            .box5White {
+              height: 5%;
+              width: 55%;
+              border-radius: 40%;
+              background-color: #FFFFFF;
+              position: absolute;
+
+              transform: rotate(90deg);
+              margin-left: 26%;
+              margin-top: 27%;
+            }
+            .box6White {
+              height: 5%;
+              width: 55%;
+              border-radius: 40%;
+              background-color: #FFFFFF;
+              position: absolute;
+
+              transform: rotate(135deg);
+              margin-left: -9%;
+              margin-top: -19%;
+            }
+            .box7White {
+              height: 5%;
+              width: 55%;
+              border-radius: 40%;
+              background-color: #FFFFFF;
+              position: absolute;
+
+              transform: rotate(135deg);
+              margin-left: 45.5%;
+              margin-top: -18.5%;
+            }
+            .box8White {
+              height: 5%;
+              width: 55%;
+              border-radius: 40%;
+              background-color: #FFFFFF;
+              position: absolute;
+
+              transform: rotate(90deg);
+              margin-left: 64%;
+              margin-top: -10%;
+            }
+            .box9White {
+              height: 5%;
+              width: 75%;
+              border-radius: 40%;
+              background-color: #FFFFFF;
+              position: absolute;
+
+              transform: rotate(135deg);
+              margin-left: -10.5%;
+              margin-top: 27%;
+            }
+            .box10White {
+              height: 5%;
+              width: 55%;
+              border-radius: 40%;
+              background-color: #FFFFFF;
+              position: absolute;
+
+              transform: rotate(135deg);
+              margin-left: 45%;
+              margin-top: 36%;
+            }
+            .box11White {
+              height: 5%;
+              width: 94%;
+              border-radius: 40%;
+              background-color: #FFFFFF;
+              position: absolute;
+
+              transform: rotate(157.5deg);
+              margin-left:-0.5%;
+              margin-top: -19%;
+            }
+            .box12White {
+              height: 5%;
+              width: 75%;
+              border-radius: 40%;
+              background-color: #FFFFFF;
+              position: absolute;
+
+              transform: rotate(224deg);
+              margin-left: -10.5%;
+              margin-top: 26.5%;
+            }
+            .box13White {
+              height: 5%;
+              width: 39.5%;
+              border-radius: 40%;
+              background-color: #FFFFFF;
+              position: absolute;
+
+              transform: rotate(66deg);
+              margin-left: 26%;
+              margin-top: -19%;
+            }
+            .box14White {
+              height: 5%;
+              width: 39%;
+              border-radius: 40%;
+              background-color: #FFFFFF;
+              position: absolute;
+
+              transform: rotate(204.5deg);
+              margin-left: 53%;
+              margin-top: 8.5%;
+            }
+            .box15White {
+              height: 5%;
+              width: 94%;
+              border-radius: 40%;
+              background-color: #FFFFFF;
               position: absolute;
 
               transform: rotate(112deg);
@@ -851,6 +1022,195 @@
                   margin-top: 9.5%;
                   animation: spin 6s ease-out ;
                   }
+        /* White */
+              #A1White {
+                  height: 5%;
+                  width: 55%;
+                  border-radius: 40%;
+                  background-color: #FFFFFF;
+                  position: absolute;
+                  animation: spin 3s ease-out ;
+                }
+
+              #A2White {
+                  height: 5%;
+                  width: 55%;
+                  border-radius: 40%;
+                  background-color: #FFFFFF;
+                  position: absolute;
+
+                  margin-left: 37%;
+                  margin-top: -38%;
+                  animation: spin 5s ease-out ;
+                  }
+
+              #A3White {
+                  height: 5%;
+                  width: 55%;
+                  border-radius: 40%;
+                  background-color: #FFFFFF;
+                  position: absolute;
+
+                  margin-left: 10%%;
+                  margin-top: 54%;
+                  animation: spin 4s ease-out ;
+                  }
+
+              #A4White {
+                  height: 5%;
+                  width: 55%;
+                  border-radius: 40%;
+                  background-color: #FFFFFF;
+                  position: absolute;
+
+                  transform: rotate(90deg);
+                  margin-left: -28%;
+                  margin-top: 27%;
+                  animation: spin 3s ease-out ;
+                  }
+
+              #A5White {
+                  height: 5%;
+                  width: 55%;
+                  border-radius: 40%;
+                  background-color: #FFFFFF;
+                  position: absolute;
+
+                  transform: rotate(90deg);
+                  margin-left: 27%;
+                  margin-top: 27%;
+                  animation: spin 4s ease-out ;
+                  }
+
+              #A6White {
+                  height: 5%;
+                  width: 55%;
+                  border-radius: 40%;
+                  background-color: #FFFFFF;
+                  position: absolute;
+
+                  transform: rotate(135deg);
+                  margin-left: -9%;
+                  margin-top: -19%;
+                  animation: spin 2s ease-out ;
+                  }
+
+              #A7White {
+                  height: 5%;
+                  width: 55%;
+                  border-radius: 40%;
+                  background-color: #FFFFFF;
+                  position: absolute;
+
+                  transform: rotate(135deg);
+                  margin-left: 45%;
+                  margin-top: -18.5%;
+                  animation: spin 4s ease-out ;
+                  }
+
+              #A8White {
+                  height: 5%;
+                  width: 55%;
+                  border-radius: 40%;
+                  background-color: #FFFFFF;
+                  position: absolute;
+
+                  transform: rotate(90deg);
+                  margin-left: 64%;
+                  margin-top: -10%;
+                  animation: spin 4s ease-out ;
+                  }
+
+              #A9White {
+                  height: 5%;
+                  width: 75%;
+                  border-radius: 40%;
+                  background-color: #FFFFFF;
+                  position: absolute;
+
+                  transform: rotate(135deg);
+                  margin-left: -10.5%;
+                  margin-top: 27%;
+                  animation: spin 5s ease-out;
+                  }
+
+              #A10White {
+                  height: 5%;
+                  width: 55%;
+                  border-radius: 40%;
+                  background-color: #FFFFFF;
+                  position: absolute;
+
+                  transform: rotate(135deg);
+                  margin-left: 45%;
+                  margin-top: 36%;
+                  animation: spin 4s ease-out ;
+                  }
+
+              #A11White {
+                  height: 5%;
+                  width: 94%;
+                  border-radius: 40%;
+                  background-color: #FFFFFF;
+                  position: absolute;
+
+                  transform: rotate(157.5deg);
+                  margin-left: -0.5%;
+                  margin-top: -19%;
+                  animation: spin 5s ease-out ;
+                  }
+
+              #A12White {
+                  height: 5%;
+                  width: 75%;
+                  border-radius: 40%;
+                  background-color: #FFFFFF;
+                  position: absolute;
+
+                  transform: rotate(224deg);
+                  margin-left: -10.5%;
+                  margin-top: 26.5%;
+                  animation: spin 4s ease-out ;
+                  }
+
+              #A13White {
+                  height: 5%;
+                  width: 39.5%;
+                  border-radius: 40%;
+                  background-color: #FFFFFF;
+                  position: absolute;
+
+                  transform: rotate(66deg);
+                  margin-left: 26%;
+                  margin-top: -19%;
+                  animation: spin 3s ease-out ;
+                  }
+
+              #A14White {
+                  height: 5%;
+                  width: 39%;
+                  border-radius: 40%;
+                  background-color: #FFFFFF;
+                  position: absolute;
+
+                  transform: rotate(204.5deg);
+                  margin-left: 53%;
+                  margin-top: 8.5%;
+                  animation: spin 5s ease-out ;
+                  }
+
+              #A15White {
+                  height: 5%;
+                  width: 94%;
+                  border-radius: 40%;
+                  background-color: #FFFFFF;
+                  position: absolute;
+
+                  transform: rotate(112deg);
+                  margin-left: 25.5%;
+                  margin-top: 9.5%;
+                  animation: spin 6s ease-out ;
+                  }
 
 /* D */
               #d1 {
@@ -936,6 +1296,29 @@
                 margin-top: 9.5%;
               }
 
+              #box2JWhite {
+                height: 5%;
+                width: 68%;
+                border-radius: 40%;
+                background-color: #FFFFFF;
+                position: absolute;
+
+                margin-left: 28%;
+                margin-top: -38%;
+              }
+
+              #box15White {
+                height: 5%;
+                width: 94%;
+                border-radius: 40%;
+                background-color: #FFFFFF;
+                position: absolute;
+
+                transform: rotate(112deg);
+                margin-left: -10%;
+                margin-top: 9.5%;
+              }
+
 /* I */
               #box2I {
                 height: 5%;
@@ -976,6 +1359,31 @@
                 width: 55%;
                 border-radius: 40%;
                 background-color: #000000;
+                position: absolute;
+
+                transform: rotate(135deg);
+                margin-left: 20%;
+                margin-top: -19%;
+
+              }
+
+              #box4White {
+                height: 5%;
+                width: 55%;
+                border-radius: 40%;
+                background-color: #FFFFFF;
+                position: absolute;
+
+                transform: rotate(90deg);
+                margin-left: 0%;
+                margin-top: 27%;
+              }
+
+              #box6White {
+                height: 5%;
+                width: 55%;
+                border-radius: 40%;
+                background-color: #FFFFFF;
                 position: absolute;
 
                 transform: rotate(135deg);
@@ -1153,6 +1561,100 @@
                 width: 94%;
                 border-radius: 40%;
                 background-color: #000000;
+                position: absolute;
+
+                transform: rotate(112deg);
+                margin-left: 115.5%;
+                margin-top: 9.5%;
+              }
+
+
+              .box1-1White  {
+                height: 5%;
+                width: 55%;
+                border-radius: 40%;
+                background-color: #FFFFFF;
+                position: absolute;
+
+                margin-left: 95%;
+              }
+
+              .box2-1White  {
+                height: 5%;
+                width: 55%;
+                border-radius: 40%;
+                background-color: ##FFFFFF;
+                position: absolute;
+
+                margin-left: 127%;
+                margin-top: -38%;
+              }
+
+              .box5-1White  {
+                height: 5%;
+                width: 55%;
+                border-radius: 40%;
+                background-color: #FFFFFF;
+                position: absolute;
+
+                transform: rotate(90deg);
+                margin-left: 116%;
+                margin-top: 27%;
+              }
+
+              .box6-1White  {
+                height: 5%;
+                width: 55%;
+                border-radius: 40%;
+                background-color: #FFFFFF;
+                position: absolute;
+
+                transform: rotate(135deg);
+                margin-left: 81%;
+                margin-top: -19%;
+              }
+
+              .box7-1White  {
+                height: 5%;
+                width: 55%;
+                border-radius: 40%;
+                background-color: #FFFFFF;
+                position: absolute;
+
+                transform: rotate(135deg);
+                margin-left: 135.5%;
+                margin-top: -18.5%;
+              }
+
+              .box11-1White  {
+                height: 5%;
+                width: 94%;
+                border-radius: 40%;
+                background-color: #FFFFFF;
+                position: absolute;
+
+                transform: rotate(157.5deg);
+                margin-left: 89.5%;
+                margin-top: -19%;
+              }
+
+              .box13-1White  {
+                height: 5%;
+                width: 39.5%;
+                border-radius: 40%;
+                background-color: #FFFFFF;
+                position: absolute;
+
+                transform: rotate(66deg);
+                margin-left: 116%;
+                margin-top: -19%;
+              }
+
+              .box15-1White  {
+                height: 5%;
+                width: 94%;
+                border-radius: 40%;
+                background-color: #FFFFFF;
                 position: absolute;
 
                 transform: rotate(112deg);
