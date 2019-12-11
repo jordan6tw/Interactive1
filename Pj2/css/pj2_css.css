@@ -1,261 +1,10 @@
 
 body {
   margin: 0;
+  padding: 0;
+  width: 100vw;
+  overflow-x: hidden;
 }
-/* response */
-              @media only screen and (max-width: 900px) {
-
-              }
-
-              @media only screen and (max-width: 400px) {
-                .section #loosebox1 {
-                  height: 0.5%;
-                  width: 15%;
-                  margin-top: 180%;
-                }
-
-                .section #loosebox2 {
-                  height: 0.5%;
-                  width: 15%;
-                  margin-top: 150%;
-                }
-
-                .section #loosebox3 {
-                  height: 0.5%;
-                  width: 15%;
-                  margin-top: 160%;
-                }
-
-                .section #loosebox4 {
-                  height: 0.5%;
-                  width: 15%;
-                  margin-top: 135%;
-                }
-
-                .section #loosebox5 {
-                  height: 0.5%;
-                  width: 15%;
-                  margin-top: 120%;
-                  margin-left: 15%;
-                }
-
-                .section #loosebox6 {
-                  height: 0.5%;
-                  width: 15%;
-                  margin-top: 180%;
-                  margin-left: 0%;
-                }
-
-                .section #loosebox7 {
-                  height: 0.5%;
-                  width: 15%;
-                  margin-top: 40%;
-                }
-
-                .section #title p {
-                  font-size: x-large;
-                  position: relative;
-                  width: auto;
-                  height: auto;
-                  margin-top: 20%;
-                }
-
-                .section h5 {
-                  position: absolute;
-                  letter-spacing: 2px;
-                  margin-top: 40%;
-                }
-
-                .section h4 {
-                  position: absolute;
-                  margin-top: -10%;
-                  margin-left: 75%;
-                  letter-spacing: 2px;
-                }
-
-                .section h3 {
-                  Position: absolute;
-                  margin-left: 100%;
-                  margin-top: 8%;
-                  font-size: xx-small;
-                  width: 5%;
-                  opacity: 50%;
-                }
-
-                .section img {
-                  display: none;
-                }
-
-                .section .letterboxanimation {
-                    position: absolute;
-                    width: 40%;
-                    height: 40%;
-                    margin-left: 30%;
-                    margin-top: 70%;
-                  }
-
-                .letterboxanimation #A1 {height: 2%;}
-                .letterboxanimation #A2 {height: 2%;}
-                .letterboxanimation #A3 {height: 2%;}
-                .letterboxanimation #A4 {height: 2%;}
-                .letterboxanimation #A5 {height: 2%;}
-                .letterboxanimation #A6 {height: 2%;}
-                .letterboxanimation #A7 {height: 2%;}
-                .letterboxanimation #A8 {height: 2%;}
-                .letterboxanimation #A9 {height: 2%;}
-                .letterboxanimation #A10 {height: 2%;}
-                .letterboxanimation #A11 {height: 2%;}
-                .letterboxanimation #A12 {height: 2%;}
-                .letterboxanimation #A13 {height: 2%;}
-                .letterboxanimation #A14 {height: 2%;}
-                .letterboxanimation #A15 {height: 2%;}
-
-                .letterboxtype .box1 {height: 2%;}
-                .letterboxtype .box2 {height: 2%;}
-                .letterboxtype .box3 {height: 2%;}
-                .letterboxtype .box4 {height: 2%;}
-                .letterboxtype .box5 {height: 2%;}
-                .letterboxtype .box6 {height: 2%;}
-                .letterboxtype .box7 {height: 2%;}
-                .letterboxtype .box8 {height: 2%;}
-                .letterboxtype .box9 {height: 2%;}
-                .letterboxtype .box10 {height: 2%;}
-                .letterboxtype .box11 {height: 2%;}
-                .letterboxtype .box12 {height: 2%;}
-                .letterboxtype .box13 {height: 2%;}
-                .letterboxtype .box14 {height: 2%;}
-                .letterboxtype .box15 {height: 2%;}
-
-                .letterbox .box1 {height: 2%;}
-                .letterbox .box2 {height: 2%;}
-                .letterbox .box3 {height: 2%;}
-                .letterbox .box4 {height: 2%;}
-                .letterbox .box5 {height: 2%;}
-                .letterbox .box6 {height: 2%;}
-                .letterbox .box7 {height: 2%;}
-                .letterbox .box8 {height: 2%;}
-                .letterbox .box9 {height: 2%;}
-                .letterbox .box10 {height: 2%;}
-                .letterbox .box11 {height: 2%;}
-                .letterbox .box12 {height: 2%;}
-                .letterbox .box13 {height: 2%;}
-                .letterbox .box14 {height: 2%;}
-                .letterbox .box15 {height: 2%;}
-
-                .letterboxtype #box2J {height: 2%;}
-                .letterboxtype #box15 {height: 2%;}
-                .letterboxtype #box2I {height: 2%;}
-                .letterboxtype #box3I {height: 2%;}
-                .letterboxtype #box4 {height: 2%;}
-                .letterboxtype #box6 {height: 2%;}
-
-
-                .letterbox #box2 {height: 4%;}
-                .letterbox #box6 {height: 2%;}
-                .letterbox #box4 {height: 2%;}
-
-                .letterbox #d1 {
-                  height: 2%;}
-                .letterbox #d3 {
-                  height: 2%;}
-                .letterbox #d4 {
-                  height: 2%;}
-                .letterbox #d5 {
-                  height: 2%;}
-                .letterbox #d6 {
-                  height: 2%;}
-                .letterbox #box8 {
-                  height: 2%;}
-                .letterbox #box10 {
-                  height: 2%;}
-                .specimensection .letterbox #box2J {
-                  height: 2%;}
-                .specimensection .letterbox #box15 {
-                  height: 2%;}
-                .specimensection .letterbox #box2I {height: 2%;}
-                .specimensection .letterbox #box3I {
-                  height: 2%;}
-                .specimensection .letterbox #questionmark {
-                  height: 2%;}
-                .specimensection .letterbox #questionperiod {
-                  height: 2%;}
-                .specimensection .letterbox #boxexpo {
-                  height: 2%;}
-                .specimensection .letterbox #box2-3 {
-                  height: 2%;
-                }
-                .specimensection .letterbox #box7-3 {
-                  height: 2%;
-                }
-                .specimensection .letterbox #box10-3 {
-                  height: 2%;
-                }
-                .specimensection .letterbox #box14-3 {
-                  height: 2%;
-                }
-
-                .animation h1 {
-                      Position: absolute;
-                      letter-spacing: 5px;
-                      font-size: x-large;
-                      margin-left: 15%;
-                      margin-top: -27%;
-                }
-
-                .bigtitle h6 {
-                  Position: absolute;
-                  letter-spacing: 5px;
-                  font-size: large;
-                  color: #FFFFFF;
-                  margin-left: 15%;
-                  margin-top: -25%;
-                }
-
-                .FullEdgeSection .bone {
-                  width:100%;
-                  height: 90vw;
-                  position: relative;
-                  display: flex;
-                }
-
-                .FullEdgeSection .bone2 {
-                  width:100%;
-                  height: 90vw;
-                  position: relative;
-                  display: flex;
-                  margin-top: -85.5%;
-                }
-
-                .bigtitle .color {
-                  margin-left: 10%;
-                }
-
-                .color .letterbox {
-                  display: none;
-                }
-
-                body .animation {
-                  height: 100vw;
-
-                }
-
-                body .section {
-                  height: 140vw;
-                }
-
-                body .bigtitle {
-                  height: 100vw;
-                }
-
-                body .FullEdgeSection {
-                  margin: 0;
-                  width: 100%;
-                  height: 50vw;
-                  position: relative;
-                  background-color: #000000;
-                  }
-
-              }
 
 /* ------------------------------------------------------------------------ */
 /* animation */
@@ -611,12 +360,13 @@ body {
             }
 
 /* FullEdgeSection */
-            .FullEdgeSection {
+            .fullEdgeSection {
               margin: 0;
               width: 100%;
               height: 100vh;
               position: relative;
               background-color: #000000;
+              overflow: hidden;
             }
 
             .letterboxWhiteFull {
@@ -635,6 +385,7 @@ body {
               height: 51.5vw;
               position: relative;
               display: flex;
+              overflow: hidden;
             }
 
             .bone2 {
@@ -1875,3 +1626,261 @@ body {
                 margin-left: 28%;
                 margin-top: 8.5%;
               }
+
+
+  /* response */
+                            @media only screen and (max-width: 900px) {
+
+                            }
+
+                            @media only screen and (max-width: 400px) {
+                              .section #loosebox1 {
+                                height: 0.5%;
+                                width: 15%;
+                                margin-top: 180%;
+                              }
+
+                              .section #loosebox2 {
+                                height: 0.5%;
+                                width: 15%;
+                                margin-top: 150%;
+                              }
+
+                              .section #loosebox3 {
+                                height: 0.5%;
+                                width: 15%;
+                                margin-top: 160%;
+                              }
+
+                              .section #loosebox4 {
+                                height: 0.5%;
+                                width: 15%;
+                                margin-top: 135%;
+                              }
+
+                              .section #loosebox5 {
+                                height: 0.5%;
+                                width: 15%;
+                                margin-top: 120%;
+                                margin-left: 15%;
+                              }
+
+                              .section #loosebox6 {
+                                height: 0.5%;
+                                width: 15%;
+                                margin-top: 180%;
+                                margin-left: 0%;
+                              }
+
+                              .section #loosebox7 {
+                                height: 0.5%;
+                                width: 15%;
+                                margin-top: 40%;
+                              }
+
+                              .section #title p {
+                                font-size: x-large;
+                                position: relative;
+                                width: auto;
+                                height: auto;
+                                margin-top: 20%;
+                              }
+
+                              .section h5 {
+                                position: absolute;
+                                letter-spacing: 2px;
+                                margin-top: 40%;
+                              }
+
+                              .section h4 {
+                                position: absolute;
+                                margin-top: -10%;
+                                margin-left: 75%;
+                                letter-spacing: 2px;
+                              }
+
+                              .section h3 {
+                                Position: absolute;
+                                margin-left: 100%;
+                                margin-top: 8%;
+                                font-size: xx-small;
+                                width: 5%;
+                                opacity: 50%;
+                              }
+
+                              .section img {
+                                display: none;
+                              }
+
+                              .section .letterboxanimation {
+                                  position: absolute;
+                                  width: 40%;
+                                  height: 40%;
+                                  margin-left: 30%;
+                                  margin-top: 70%;
+                                }
+
+                              .letterboxanimation #A1 {height: 2%;}
+                              .letterboxanimation #A2 {height: 2%;}
+                              .letterboxanimation #A3 {height: 2%;}
+                              .letterboxanimation #A4 {height: 2%;}
+                              .letterboxanimation #A5 {height: 2%;}
+                              .letterboxanimation #A6 {height: 2%;}
+                              .letterboxanimation #A7 {height: 2%;}
+                              .letterboxanimation #A8 {height: 2%;}
+                              .letterboxanimation #A9 {height: 2%;}
+                              .letterboxanimation #A10 {height: 2%;}
+                              .letterboxanimation #A11 {height: 2%;}
+                              .letterboxanimation #A12 {height: 2%;}
+                              .letterboxanimation #A13 {height: 2%;}
+                              .letterboxanimation #A14 {height: 2%;}
+                              .letterboxanimation #A15 {height: 2%;}
+
+                              .letterboxtype .box1 {height: 2%;}
+                              .letterboxtype .box2 {height: 2%;}
+                              .letterboxtype .box3 {height: 2%;}
+                              .letterboxtype .box4 {height: 2%;}
+                              .letterboxtype .box5 {height: 2%;}
+                              .letterboxtype .box6 {height: 2%;}
+                              .letterboxtype .box7 {height: 2%;}
+                              .letterboxtype .box8 {height: 2%;}
+                              .letterboxtype .box9 {height: 2%;}
+                              .letterboxtype .box10 {height: 2%;}
+                              .letterboxtype .box11 {height: 2%;}
+                              .letterboxtype .box12 {height: 2%;}
+                              .letterboxtype .box13 {height: 2%;}
+                              .letterboxtype .box14 {height: 2%;}
+                              .letterboxtype .box15 {height: 2%;}
+
+                              .letterbox .box1 {height: 2%;}
+                              .letterbox .box2 {height: 2%;}
+                              .letterbox .box3 {height: 2%;}
+                              .letterbox .box4 {height: 2%;}
+                              .letterbox .box5 {height: 2%;}
+                              .letterbox .box6 {height: 2%;}
+                              .letterbox .box7 {height: 2%;}
+                              .letterbox .box8 {height: 2%;}
+                              .letterbox .box9 {height: 2%;}
+                              .letterbox .box10 {height: 2%;}
+                              .letterbox .box11 {height: 2%;}
+                              .letterbox .box12 {height: 2%;}
+                              .letterbox .box13 {height: 2%;}
+                              .letterbox .box14 {height: 2%;}
+                              .letterbox .box15 {height: 2%;}
+
+                              .letterboxtype #box2J {height: 2%;}
+                              .letterboxtype #box15 {height: 2%;}
+                              .letterboxtype #box2I {height: 2%;}
+                              .letterboxtype #box3I {height: 2%;}
+                              .letterboxtype #box4 {height: 2%;}
+                              .letterboxtype #box6 {height: 2%;}
+
+
+                              .letterbox #box2 {height: 4%;}
+                              .letterbox #box6 {height: 2%;}
+                              .letterbox #box4 {height: 2%;}
+
+                              .letterbox #d1 {
+                                height: 2%;}
+                              .letterbox #d3 {
+                                height: 2%;}
+                              .letterbox #d4 {
+                                height: 2%;}
+                              .letterbox #d5 {
+                                height: 2%;}
+                              .letterbox #d6 {
+                                height: 2%;}
+                              .letterbox #box8 {
+                                height: 2%;}
+                              .letterbox #box10 {
+                                height: 2%;}
+                              .specimensection .letterbox #box2J {
+                                height: 2%;}
+                              .specimensection .letterbox #box15 {
+                                height: 2%;}
+                              .specimensection .letterbox #box2I {height: 2%;}
+                              .specimensection .letterbox #box3I {
+                                height: 2%;}
+                              .specimensection .letterbox #questionmark {
+                                height: 2%;}
+                              .specimensection .letterbox #questionperiod {
+                                height: 2%;}
+                              .specimensection .letterbox #boxexpo {
+                                height: 2%;}
+                              .specimensection .letterbox #box2-3 {
+                                height: 2%;
+                              }
+                              .specimensection .letterbox #box7-3 {
+                                height: 2%;
+                              }
+                              .specimensection .letterbox #box10-3 {
+                                height: 2%;
+                              }
+                              .specimensection .letterbox #box14-3 {
+                                height: 2%;
+                              }
+
+                              .animation h1 {
+                                    Position: absolute;
+                                    letter-spacing: 5px;
+                                    font-size: x-large;
+                                    margin-left: 15%;
+                                    margin-top: -27%;
+                              }
+
+                              .bigtitle h6 {
+                                Position: absolute;
+                                letter-spacing: 5px;
+                                font-size: large;
+                                color: #FFFFFF;
+                                margin-left: 15%;
+                                margin-top: -25%;
+                              }
+
+                              .fullEdgeSection .bone {
+                                width:100%;
+                                height: 90vw;
+                                position: relative;
+                                display: flex;
+                                overflow: hidden;
+                              }
+
+                              .fullEdgeSection .bone2 {
+                                width:100%;
+                                height: 90vw;
+                                position: relative;
+                                display: flex;
+                                margin-top: -85.5%;
+                                overflow: hidden;
+                              }
+
+                              .bigtitle .color {
+                                margin-left: 10%;
+                              }
+
+                              .color .letterbox {
+                                display: none;
+                              }
+
+                              body .animation {
+                                height: 100vw;
+
+                              }
+
+                              body .section {
+                                height: 140vw;
+                              }
+
+                              body .bigtitle {
+                                height: 100vw;
+                              }
+
+                              body .fullEdgeSection {
+                                margin: 0;
+                                width: 100%;
+                                height: 50vw;
+                                position: relative;
+                                background-color: #000000;
+                                }
+
+                            }
