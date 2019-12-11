@@ -216,10 +216,13 @@ body {
               position: relative;
             }
 
+            .animation .letterbox {
+              width: 15%;
+            }
             .letterbox{
               float: left;
               position: relative;
-              width: 14%;
+              width: 10%;
               height: 10%;
               margin: 0% 0% 10% 5%;
             }
@@ -333,7 +336,7 @@ body {
             }
 /* Specimen */
             .specimensection {
-              margin: 10%;
+              margin: 20% 10% 10% 10%;
               width: 80%;
               height: 100vh;
               position: relative;
