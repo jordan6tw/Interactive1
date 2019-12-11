@@ -219,7 +219,7 @@ body {
             .letterbox{
               float: left;
               position: relative;
-              width: 8%;
+              width: 14%;
               height: 10%;
               margin: 0% 0% 10% 5%;
             }
@@ -1325,7 +1325,7 @@ body {
                 height: 5%;
                 width: 55%;
                 border-radius: 40%;
-                background-color: #000000;
+                background-color: #FFFFFF;
                 position: absolute;
 
                 margin-left: 95%;
@@ -1429,7 +1429,7 @@ body {
                 height: 5%;
                 width: 55%;
                 border-radius: 40%;
-                background-color: ##FFFFFF;
+                background-color: #FFFFFF;
                 position: absolute;
 
                 margin-left: 127%;
@@ -1482,6 +1482,17 @@ body {
                 transform: rotate(157.5deg);
                 margin-left: 89.5%;
                 margin-top: -19%;
+              }
+
+              .box12-1White {
+                height: 5%;
+                width: 75%;
+                border-radius: 40%;
+                background-color: #FFFFFF;
+                position: absolute;
+                transform: rotate(224deg);
+                margin-left: 79%;
+                margin-top: 26.5%;
               }
 
               .box13-1White  {
