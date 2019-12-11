@@ -1651,7 +1651,9 @@ body {
                               }
 
                               .section img {
-                                display: none;
+                                position: absolute;
+                                margin: 20% 0 0 98%;
+                                width: 10%;
                               }
 
                               .section .letterboxanimation {
