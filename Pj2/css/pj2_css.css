@@ -84,7 +84,7 @@ body {
 /* A TYPEFACE DESIGN FROM TOOTHPICK & CUBE */
             h1 {
               Position: absolute;
-              letter-spacing: 5px;
+              letter-spacing: 4px;
               font-size: x-large;
               margin-left: 22%;
               margin-top: -20%;
@@ -343,7 +343,7 @@ body {
                 padding-top: 50%;
                 margin-left: 6%;
                 font-size: x-large;
-                letter-spacing: 3px;
+                letter-spacing: 2px;
               }
 
 /* animation box line */
@@ -1743,10 +1743,6 @@ body {
                               .specimensection .letterbox #box2I {height: 2%;}
                               .specimensection .letterbox #box3I {
                                 height: 2%;}
-                              .specimensection .letterbox #questionmark {
-                                height: 2%;}
-                              .specimensection .letterbox #questionperiod {
-                                height: 2%;}
                               .specimensection .letterbox #boxexpo {
                                 height: 2%;}
                               .specimensection .letterbox #box2-3 {
@@ -1764,21 +1760,30 @@ body {
 
                               .animation h1 {
                                     Position: absolute;
-                                    letter-spacing: 5px;
-                                    font-size: x-large;
-                                    margin-left: 15%;
-                                    margin-top: -27%;
+                                    letter-spacing: 3px;
+                                    font-size: large;
+                                    margin-left: 35%;
+                                    margin-top: -20%;
+                              }
+
+                              .animation .color .letterboxtype {
+                                width: 10%;
+                                height: 15%;
+                                margin: 0% 0% 15% -1%;
                               }
 
                               .bigtitle h6 {
                                 Position: absolute;
-                                letter-spacing: 5px;
+                                letter-spacing: 3px;
+                                width: 75%;
                                 font-size: large;
-                                color: #FFFFFF;
-                                margin-left: 15%;
+                                margin-left: 10%;
                                 margin-top: -25%;
                               }
 
+                              .bigtitle .letterboxtype{
+                                margin: 5% 0% 1% 0%;
+                              }
                               .fullEdgeSection .bone {
                                 width:100%;
                                 height: 90vw;
@@ -1796,7 +1801,10 @@ body {
                                 overflow: hidden;
                               }
 
-          
+                              .bigtitle .color {
+                                margin-left: 10%;
+                              }
+
                               .color .letterbox {
                                 display: none;
                               }
@@ -1817,16 +1825,28 @@ body {
                               body .fullEdgeSection {
                                 margin: 0;
                                 width: 100%;
-                                height: 50vw;
+                                height: 30vh;
                                 position: relative;
                                 background-color: #000000;
                                 }
+
                               .specimensection .letterbox {
+                                width: 15%;
+                                height: 12%;
                                 padding-top: 15%;
                               }
 
+                              .specimensection .questionmark {
+                                height: 90%;
+                                width: 70%;
+                              }
+
+                              body .specimensection {
+                                height: 70vh
+                              }
+
                               #endsection {
-                                  padding-top: 140%;
+                                  padding-top: 230%;
                                   font-size: large;
                                   letter-spacing: 3px;
                                 }
